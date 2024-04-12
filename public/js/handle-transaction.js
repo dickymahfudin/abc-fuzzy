@@ -217,7 +217,6 @@ $('#submitTransaction').click(function (e) {
       transactionDate,
       detail,
     };
-    console.log(payload);
 
     $.ajax({
       type: 'post',
@@ -225,7 +224,7 @@ $('#submitTransaction').click(function (e) {
       data: payload,
       dataType: 'json',
       success: function (res) {
-        console.log(res);
+        $('#submitTransaction').prop('disabled', false);
         if (res.success) {
           notification('success', res.message);
           setTimeout(function () {
@@ -233,7 +232,6 @@ $('#submitTransaction').click(function (e) {
           }, 2000);
         } else {
           notification('error', res.message);
-          $('#submitTransaction').prop('disabled', false);
         }
       },
     });

@@ -45,6 +45,6 @@ app.use('/outbound', outboundRouter);
 // app.use('/customer', customerRouter);
 // app.use('/', dashboardRouter);
 
-// app.use('*', middleware, (req, res) => res.redirect('/dashboard'));
+app.use('*', (req, res) => res.render('error', { title: '404', layout: 'layouts/blank' }));
 
 app.listen(PORT, () => console.info(`Server Running on : http://localhost:${PORT}`));
