@@ -1,0 +1,31 @@
+<!-- endbuild -->
+
+<!-- build:js/vendor/js/core.js -->
+<script src="/vendor/libs/popper/popper.js"></script>
+<script src="/vendor/js/bootstrap.js"></script>
+<script src="/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+
+<script src="/vendor/js/menu.js"></script>
+
+<script src="/vendor/libs/datatables/datatable.js"></script>
+<script src="/vendor/libs/datatables/datatables-bootstrap.js"></script>
+<script src="/vendor/libs/toastr/toastr.js"></script>
+
+<!-- Core JS -->
+<script src="/js/main.js"></script>
+
+<!-- Page JS -->
+<script src="/js/dism.js"></script>
+
+<script src="/js/toast.js"></script>
+
+<script>
+  $(document).ready(function () {
+    $('input[type="number"]').each(function (i) {
+      $(this).attr(
+        'onkeydown',
+        "javascript: return ['Backspace','Delete','ArrowLeft','ArrowRight'].includes(event.code) ? true : !isNaN(Number(event.key)) && event.code!=='Space'",
+      );
+    });
+  });
+</script>

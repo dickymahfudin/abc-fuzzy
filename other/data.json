@@ -1,0 +1,2312 @@
+[
+  {
+    "transactionDatetime": 1,
+    "day": 1,
+    "detail": [
+      { "no": 89686600001, "name": "CHHETOS SHOTS JAGUNG BAKAR 15", "amount": 5 },
+      { "no": 89686600223, "name": "CHEETOS JAGUNG BAKAR 18", "amount": 9 },
+      { "no": 89686596878, "name": "LAYS AYAM PG PAPRIKA 40", "amount": 3 },
+      { "no": 89686596885, "name": "LAYS AYAM PAPRIKA 65", "amount": 4 },
+      { "no": 89686598926, "name": "CHITATO KEJU SUPREME 15", "amount": 4 }
+    ]
+  },
+  {
+    "transactionDatetime": 2,
+    "day": 1,
+    "detail": [
+      { "no": 89686598599, "name": "CHITATO SAPI BUMBU B 75", "amount": 8 },
+      { "no": 89686598582, "name": "CHITATO SAPI BUMBU B 40", "amount": 9 },
+      { "no": 89686598421, "name": "CHITATO AYAM BUMBU 40", "amount": 4 },
+      { "no": 89686598575, "name": "CHITATO SAPI BAKAR 19", "amount": 4 },
+      { "no": 89686598476, "name": "CHITATO AYAM BUMBU 75", "amount": 5 }
+    ]
+  },
+  {
+    "transactionDatetime": 3,
+    "day": 1,
+    "detail": [
+      { "no": 89686598179, "name": "CHITATO AYAM BBQ 40", "amount": 8 },
+      { "no": 89686598162, "name": "CHITATO AYAM BBQ 19", "amount": 1 },
+      { "no": 89686599046, "name": "CHITATO FOODIE SEAWEED 55", "amount": 8 },
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 2 },
+      { "no": 89686600025, "name": "CHEETOS AYAM BAKAR 15", "amount": 6 }
+    ]
+  },
+  {
+    "transactionDatetime": 4,
+    "day": 1,
+    "detail": [
+      { "no": 89686596878, "name": "LAYS AYAM PG PAPRIKA 40", "amount": 7 },
+      { "no": 89686598414, "name": "CHITATO AYAM BUMBU 19", "amount": 9 },
+      { "no": 89686599046, "name": "CHITATO FOODIE SEAWEED 55", "amount": 2 },
+      { "no": 89686600025, "name": "CHEETOS AYAM BAKAR 15", "amount": 4 },
+      { "no": 89686598018, "name": "CHITATO SAPI PG 19", "amount": 3 }
+    ]
+  },
+  {
+    "transactionDatetime": 5,
+    "day": 1,
+    "detail": [
+      { "no": 89686598322, "name": "CHITATO ORIGINAL FLAVOUR 35 GR", "amount": 8 },
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 5 },
+      { "no": 89686596885, "name": "LAYS AYAM PAPRIKA 65", "amount": 5 },
+      { "no": 89686600810, "name": "CHEETOS NET SEAWEED 12", "amount": 5 },
+      { "no": 89686598476, "name": "CHITATO AYAM BUMBU 75", "amount": 3 }
+    ]
+  },
+  {
+    "transactionDatetime": 6,
+    "day": 1,
+    "detail": [
+      { "no": 89686600513, "name": "CHEETOS NET BBQ 12", "amount": 9 },
+      { "no": 89686598056, "name": "CHITATO SAPI PG 75", "amount": 9 },
+      { "no": 89686598322, "name": "CHITATO ORIGINAL FLAVOUR 35 GR", "amount": 6 },
+      { "no": 89686598018, "name": "CHITATO SAPI PG 19", "amount": 3 },
+      { "no": 89686598575, "name": "CHITATO SAPI BAKAR 19", "amount": 5 }
+    ]
+  },
+  {
+    "transactionDatetime": 7,
+    "day": 1,
+    "detail": [
+      { "no": 89686598025, "name": "CHITATO SAPI PG 40", "amount": 9 },
+      { "no": 89686598599, "name": "CHITATO SAPI BUMBU B 75", "amount": 7 },
+      { "no": 89686598018, "name": "CHITATO SAPI PG 19", "amount": 10 },
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 2 },
+      { "no": 89686598575, "name": "CHITATO SAPI BAKAR 19", "amount": 3 }
+    ]
+  },
+  {
+    "transactionDatetime": 8,
+    "day": 1,
+    "detail": [
+      { "no": 89686596878, "name": "LAYS AYAM PG PAPRIKA 40", "amount": 9 },
+      { "no": 89686600223, "name": "CHEETOS JAGUNG BAKAR 18", "amount": 5 },
+      { "no": 89686600025, "name": "CHEETOS AYAM BAKAR 15", "amount": 5 },
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 8 },
+      { "no": 89686598476, "name": "CHITATO AYAM BUMBU 75", "amount": 10 }
+    ]
+  },
+  {
+    "transactionDatetime": 9,
+    "day": 1,
+    "detail": [
+      { "no": 89686598476, "name": "CHITATO AYAM BUMBU 75", "amount": 2 },
+      { "no": 89686600513, "name": "CHEETOS NET BBQ 12", "amount": 3 },
+      { "no": 89686598575, "name": "CHITATO SAPI BAKAR 19", "amount": 4 },
+      { "no": 89686600025, "name": "CHEETOS AYAM BAKAR 15", "amount": 3 },
+      { "no": 89686598421, "name": "CHITATO AYAM BUMBU 40", "amount": 1 }
+    ]
+  },
+  {
+    "transactionDatetime": 10,
+    "day": 1,
+    "detail": [
+      { "no": 89686600001, "name": "CHHETOS SHOTS JAGUNG BAKAR 15", "amount": 2 },
+      { "no": 89686598575, "name": "CHITATO SAPI BAKAR 19", "amount": 4 },
+      { "no": 89686600025, "name": "CHEETOS AYAM BAKAR 15", "amount": 8 },
+      { "no": 89686598582, "name": "CHITATO SAPI BUMBU B 40", "amount": 4 },
+      { "no": 89686596878, "name": "LAYS AYAM PG PAPRIKA 40", "amount": 4 }
+    ]
+  },
+  {
+    "transactionDatetime": 11,
+    "day": 1,
+    "detail": [
+      { "no": 89686600025, "name": "CHEETOS AYAM BAKAR 15", "amount": 5 },
+      { "no": 89686598025, "name": "CHITATO SAPI PG 40", "amount": 8 },
+      { "no": 89686598650, "name": "CHITATO OKONOMIYAKI 85", "amount": 9 },
+      { "no": 89686596885, "name": "LAYS AYAM PAPRIKA 65", "amount": 9 },
+      { "no": 89686598018, "name": "CHITATO SAPI PG 19", "amount": 2 }
+    ]
+  },
+  {
+    "transactionDatetime": 12,
+    "day": 1,
+    "detail": [
+      { "no": 89686598476, "name": "CHITATO AYAM BUMBU 75", "amount": 3 },
+      { "no": 89686600001, "name": "CHHETOS SHOTS JAGUNG BAKAR 15", "amount": 7 },
+      { "no": 89686596878, "name": "LAYS AYAM PG PAPRIKA 40", "amount": 5 },
+      { "no": 89686598353, "name": "CHITATO ASLI 75", "amount": 5 },
+      { "no": 89686600810, "name": "CHEETOS NET SEAWEED 12", "amount": 10 }
+    ]
+  },
+  {
+    "transactionDatetime": 13,
+    "day": 1,
+    "detail": [
+      { "no": 89686598056, "name": "CHITATO SAPI PG 75", "amount": 4 },
+      { "no": 89686598650, "name": "CHITATO OKONOMIYAKI 85", "amount": 2 },
+      { "no": 89686598353, "name": "CHITATO ASLI 75", "amount": 5 },
+      { "no": 89686598179, "name": "CHITATO AYAM BBQ 40", "amount": 8 },
+      { "no": 89686599046, "name": "CHITATO FOODIE SEAWEED 55", "amount": 8 }
+    ]
+  },
+  {
+    "transactionDatetime": 14,
+    "day": 1,
+    "detail": [
+      { "no": 89686598926, "name": "CHITATO KEJU SUPREME 15", "amount": 9 },
+      { "no": 89686600346, "name": "CHEETOS KEJU AMERIKA 40", "amount": 7 },
+      { "no": 89686598957, "name": "CHITATO KEJU SUPREME 75", "amount": 1 },
+      { "no": 89686599046, "name": "CHITATO FOODIE SEAWEED 55", "amount": 7 },
+      { "no": 89686598179, "name": "CHITATO AYAM BBQ 40", "amount": 5 }
+    ]
+  },
+  {
+    "transactionDatetime": 15,
+    "day": 1,
+    "detail": [
+      { "no": 89686598353, "name": "CHITATO ASLI 75", "amount": 10 },
+      { "no": 89686598421, "name": "CHITATO AYAM BUMBU 40", "amount": 4 },
+      { "no": 89686600223, "name": "CHEETOS JAGUNG BAKAR 18", "amount": 3 },
+      { "no": 89686598414, "name": "CHITATO AYAM BUMBU 19", "amount": 3 },
+      { "no": 89686600810, "name": "CHEETOS NET SEAWEED 12", "amount": 2 }
+    ]
+  },
+  {
+    "transactionDatetime": 16,
+    "day": 1,
+    "detail": [
+      { "no": 89686598353, "name": "CHITATO ASLI 75", "amount": 8 },
+      { "no": 89686598414, "name": "CHITATO AYAM BUMBU 19", "amount": 2 },
+      { "no": 89686598766, "name": "CHITATO SAPI PANGGANG 168", "amount": 4 },
+      { "no": 89686598476, "name": "CHITATO AYAM BUMBU 75", "amount": 6 },
+      { "no": 89686600544, "name": "CHEETOS NET BBQ 40", "amount": 6 }
+    ]
+  },
+  {
+    "transactionDatetime": 17,
+    "day": 1,
+    "detail": [
+      { "no": 89686598582, "name": "CHITATO SAPI BUMBU B 40", "amount": 2 },
+      { "no": 89686598476, "name": "CHITATO AYAM BUMBU 75", "amount": 8 },
+      { "no": 89686598162, "name": "CHITATO AYAM BBQ 19", "amount": 6 },
+      { "no": 89686598179, "name": "CHITATO AYAM BBQ 40", "amount": 10 },
+      { "no": 89686600544, "name": "CHEETOS NET BBQ 40", "amount": 2 }
+    ]
+  },
+  {
+    "transactionDatetime": 18,
+    "day": 1,
+    "detail": [
+      { "no": 89686598575, "name": "CHITATO SAPI BAKAR 19", "amount": 1 },
+      { "no": 89686600513, "name": "CHEETOS NET BBQ 12", "amount": 7 },
+      { "no": 89686598179, "name": "CHITATO AYAM BBQ 40", "amount": 9 },
+      { "no": 89686598353, "name": "CHITATO ASLI 75", "amount": 10 },
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 5 }
+    ]
+  },
+  {
+    "transactionDatetime": 19,
+    "day": 1,
+    "detail": [
+      { "no": 89686598957, "name": "CHITATO KEJU SUPREME 75", "amount": 8 },
+      { "no": 89686598728, "name": "CHITATO SAPI PANGGANG 15", "amount": 5 },
+      { "no": 89686600223, "name": "CHEETOS JAGUNG BAKAR 18", "amount": 3 },
+      { "no": 89686600810, "name": "CHEETOS NET SEAWEED 12", "amount": 2 },
+      { "no": 89686598179, "name": "CHITATO AYAM BBQ 40", "amount": 10 }
+    ]
+  },
+  {
+    "transactionDatetime": 20,
+    "day": 1,
+    "detail": [
+      { "no": 89686598650, "name": "CHITATO OKONOMIYAKI 85", "amount": 2 },
+      { "no": 89686598766, "name": "CHITATO SAPI PANGGANG 168", "amount": 7 },
+      { "no": 89686598575, "name": "CHITATO SAPI BAKAR 19", "amount": 1 },
+      { "no": 89686598599, "name": "CHITATO SAPI BUMBU B 75", "amount": 9 },
+      { "no": 89686598353, "name": "CHITATO ASLI 75", "amount": 4 }
+    ]
+  },
+  {
+    "transactionDatetime": 21,
+    "day": 1,
+    "detail": [
+      { "no": 89686598162, "name": "CHITATO AYAM BBQ 19", "amount": 1 },
+      { "no": 89686598018, "name": "CHITATO SAPI PG 19", "amount": 9 },
+      { "no": 89686600001, "name": "CHHETOS SHOTS JAGUNG BAKAR 15", "amount": 8 },
+      { "no": 89686598179, "name": "CHITATO AYAM BBQ 40", "amount": 3 },
+      { "no": 89686600025, "name": "CHEETOS AYAM BAKAR 15", "amount": 3 }
+    ]
+  },
+  {
+    "transactionDatetime": 22,
+    "day": 1,
+    "detail": [
+      { "no": 89686598162, "name": "CHITATO AYAM BBQ 19", "amount": 10 },
+      { "no": 89686598599, "name": "CHITATO SAPI BUMBU B 75", "amount": 8 },
+      { "no": 89686598650, "name": "CHITATO OKONOMIYAKI 85", "amount": 7 },
+      { "no": 89686600001, "name": "CHHETOS SHOTS JAGUNG BAKAR 15", "amount": 1 },
+      { "no": 89686600346, "name": "CHEETOS KEJU AMERIKA 40", "amount": 8 }
+    ]
+  },
+  {
+    "transactionDatetime": 23,
+    "day": 1,
+    "detail": [
+      { "no": 89686600001, "name": "CHHETOS SHOTS JAGUNG BAKAR 15", "amount": 9 },
+      { "no": 89686599046, "name": "CHITATO FOODIE SEAWEED 55", "amount": 1 },
+      { "no": 89686598728, "name": "CHITATO SAPI PANGGANG 15", "amount": 10 },
+      { "no": 89686598766, "name": "CHITATO SAPI PANGGANG 168", "amount": 10 },
+      { "no": 89686598957, "name": "CHITATO KEJU SUPREME 75", "amount": 8 }
+    ]
+  },
+  {
+    "transactionDatetime": 24,
+    "day": 1,
+    "detail": [
+      { "no": 89686600513, "name": "CHEETOS NET BBQ 12", "amount": 9 },
+      { "no": 89686596878, "name": "LAYS AYAM PG PAPRIKA 40", "amount": 6 },
+      { "no": 89686598322, "name": "CHITATO ORIGINAL FLAVOUR 35 GR", "amount": 2 },
+      { "no": 89686598575, "name": "CHITATO SAPI BAKAR 19", "amount": 4 },
+      { "no": 89686600810, "name": "CHEETOS NET SEAWEED 12", "amount": 5 }
+    ]
+  },
+  {
+    "transactionDatetime": 25,
+    "day": 1,
+    "detail": [
+      { "no": 89686600247, "name": "CHEETOS JAGUNG BAKAR 40", "amount": 5 },
+      { "no": 89686598322, "name": "CHITATO ORIGINAL FLAVOUR 35 GR", "amount": 6 },
+      { "no": 89686598056, "name": "CHITATO SAPI PG 75", "amount": 8 },
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 7 },
+      { "no": 89686600346, "name": "CHEETOS KEJU AMERIKA 40", "amount": 5 }
+    ]
+  },
+  {
+    "transactionDatetime": 26,
+    "day": 1,
+    "detail": [
+      { "no": 89686598575, "name": "CHITATO SAPI BAKAR 19", "amount": 8 },
+      { "no": 89686598766, "name": "CHITATO SAPI PANGGANG 168", "amount": 2 },
+      { "no": 89686600544, "name": "CHEETOS NET BBQ 40", "amount": 2 },
+      { "no": 89686598957, "name": "CHITATO KEJU SUPREME 75", "amount": 10 },
+      { "no": 89686598728, "name": "CHITATO SAPI PANGGANG 15", "amount": 2 }
+    ]
+  },
+  {
+    "transactionDatetime": 27,
+    "day": 1,
+    "detail": [
+      { "no": 89686599046, "name": "CHITATO FOODIE SEAWEED 55", "amount": 8 },
+      { "no": 89686598926, "name": "CHITATO KEJU SUPREME 15", "amount": 3 },
+      { "no": 89686600544, "name": "CHEETOS NET BBQ 40", "amount": 9 },
+      { "no": 89686600513, "name": "CHEETOS NET BBQ 12", "amount": 5 },
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 7 }
+    ]
+  },
+  {
+    "transactionDatetime": 28,
+    "day": 1,
+    "detail": [
+      { "no": 89686596885, "name": "LAYS AYAM PAPRIKA 65", "amount": 6 },
+      { "no": 89686600223, "name": "CHEETOS JAGUNG BAKAR 18", "amount": 7 },
+      { "no": 89686598179, "name": "CHITATO AYAM BBQ 40", "amount": 6 },
+      { "no": 89686600544, "name": "CHEETOS NET BBQ 40", "amount": 6 },
+      { "no": 89686598056, "name": "CHITATO SAPI PG 75", "amount": 6 }
+    ]
+  },
+  {
+    "transactionDatetime": 29,
+    "day": 1,
+    "detail": [
+      { "no": 89686598025, "name": "CHITATO SAPI PG 40", "amount": 9 },
+      { "no": 89686598421, "name": "CHITATO AYAM BUMBU 40", "amount": 4 },
+      { "no": 89686600346, "name": "CHEETOS KEJU AMERIKA 40", "amount": 10 },
+      { "no": 89686598766, "name": "CHITATO SAPI PANGGANG 168", "amount": 4 },
+      { "no": 89686598056, "name": "CHITATO SAPI PG 75", "amount": 10 }
+    ]
+  },
+  {
+    "transactionDatetime": 30,
+    "day": 1,
+    "detail": [
+      { "no": 89686598957, "name": "CHITATO KEJU SUPREME 75", "amount": 3 },
+      { "no": 89686596878, "name": "LAYS AYAM PG PAPRIKA 40", "amount": 8 },
+      { "no": 89686600544, "name": "CHEETOS NET BBQ 40", "amount": 6 },
+      { "no": 89686598575, "name": "CHITATO SAPI BAKAR 19", "amount": 7 },
+      { "no": 89686598582, "name": "CHITATO SAPI BUMBU B 40", "amount": 7 }
+    ]
+  },
+  {
+    "transactionDatetime": 1,
+    "day": 2,
+    "detail": [
+      { "no": 89686600223, "name": "CHEETOS JAGUNG BAKAR 18", "amount": 5 },
+      { "no": 89686600247, "name": "CHEETOS JAGUNG BAKAR 40", "amount": 2 },
+      { "no": 89686598322, "name": "CHITATO ORIGINAL FLAVOUR 35 GR", "amount": 9 },
+      { "no": 89686600513, "name": "CHEETOS NET BBQ 12", "amount": 1 },
+      { "no": 89686598179, "name": "CHITATO AYAM BBQ 40", "amount": 7 }
+    ]
+  },
+  {
+    "transactionDatetime": 2,
+    "day": 2,
+    "detail": [
+      { "no": 89686598650, "name": "CHITATO OKONOMIYAKI 85", "amount": 6 },
+      { "no": 89686598582, "name": "CHITATO SAPI BUMBU B 40", "amount": 6 },
+      { "no": 89686600544, "name": "CHEETOS NET BBQ 40", "amount": 6 },
+      { "no": 89686598018, "name": "CHITATO SAPI PG 19", "amount": 10 },
+      { "no": 89686600025, "name": "CHEETOS AYAM BAKAR 15", "amount": 3 }
+    ]
+  },
+  {
+    "transactionDatetime": 3,
+    "day": 2,
+    "detail": [
+      { "no": 89686600025, "name": "CHEETOS AYAM BAKAR 15", "amount": 4 },
+      { "no": 89686598179, "name": "CHITATO AYAM BBQ 40", "amount": 4 },
+      { "no": 89686598957, "name": "CHITATO KEJU SUPREME 75", "amount": 10 },
+      { "no": 89686600346, "name": "CHEETOS KEJU AMERIKA 40", "amount": 8 },
+      { "no": 89686600544, "name": "CHEETOS NET BBQ 40", "amount": 5 }
+    ]
+  },
+  {
+    "transactionDatetime": 4,
+    "day": 2,
+    "detail": [
+      { "no": 89686598421, "name": "CHITATO AYAM BUMBU 40", "amount": 8 },
+      { "no": 89686600223, "name": "CHEETOS JAGUNG BAKAR 18", "amount": 8 },
+      { "no": 89686600001, "name": "CHHETOS SHOTS JAGUNG BAKAR 15", "amount": 1 },
+      { "no": 89686598162, "name": "CHITATO AYAM BBQ 19", "amount": 9 },
+      { "no": 89686598599, "name": "CHITATO SAPI BUMBU B 75", "amount": 3 }
+    ]
+  },
+  {
+    "transactionDatetime": 5,
+    "day": 2,
+    "detail": [
+      { "no": 89686598728, "name": "CHITATO SAPI PANGGANG 15", "amount": 6 },
+      { "no": 89686600810, "name": "CHEETOS NET SEAWEED 12", "amount": 6 },
+      { "no": 89686600025, "name": "CHEETOS AYAM BAKAR 15", "amount": 7 },
+      { "no": 89686598056, "name": "CHITATO SAPI PG 75", "amount": 10 },
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 8 }
+    ]
+  },
+  {
+    "transactionDatetime": 6,
+    "day": 2,
+    "detail": [
+      { "no": 89686596885, "name": "LAYS AYAM PAPRIKA 65", "amount": 8 },
+      { "no": 89686600810, "name": "CHEETOS NET SEAWEED 12", "amount": 10 },
+      { "no": 89686598162, "name": "CHITATO AYAM BBQ 19", "amount": 1 },
+      { "no": 89686598322, "name": "CHITATO ORIGINAL FLAVOUR 35 GR", "amount": 3 },
+      { "no": 89686598056, "name": "CHITATO SAPI PG 75", "amount": 8 }
+    ]
+  },
+  {
+    "transactionDatetime": 7,
+    "day": 2,
+    "detail": [
+      { "no": 89686598766, "name": "CHITATO SAPI PANGGANG 168", "amount": 4 },
+      { "no": 89686600544, "name": "CHEETOS NET BBQ 40", "amount": 7 },
+      { "no": 89686598926, "name": "CHITATO KEJU SUPREME 15", "amount": 3 },
+      { "no": 89686598179, "name": "CHITATO AYAM BBQ 40", "amount": 3 },
+      { "no": 89686598322, "name": "CHITATO ORIGINAL FLAVOUR 35 GR", "amount": 10 }
+    ]
+  },
+  {
+    "transactionDatetime": 8,
+    "day": 2,
+    "detail": [
+      { "no": 89686598162, "name": "CHITATO AYAM BBQ 19", "amount": 2 },
+      { "no": 89686598179, "name": "CHITATO AYAM BBQ 40", "amount": 7 },
+      { "no": 89686598421, "name": "CHITATO AYAM BUMBU 40", "amount": 5 },
+      { "no": 89686598414, "name": "CHITATO AYAM BUMBU 19", "amount": 2 },
+      { "no": 89686598728, "name": "CHITATO SAPI PANGGANG 15", "amount": 4 }
+    ]
+  },
+  {
+    "transactionDatetime": 9,
+    "day": 2,
+    "detail": [
+      { "no": 89686599046, "name": "CHITATO FOODIE SEAWEED 55", "amount": 7 },
+      { "no": 89686598957, "name": "CHITATO KEJU SUPREME 75", "amount": 3 },
+      { "no": 89686598728, "name": "CHITATO SAPI PANGGANG 15", "amount": 6 },
+      { "no": 89686600810, "name": "CHEETOS NET SEAWEED 12", "amount": 4 },
+      { "no": 89686598018, "name": "CHITATO SAPI PG 19", "amount": 10 }
+    ]
+  },
+  {
+    "transactionDatetime": 10,
+    "day": 2,
+    "detail": [
+      { "no": 89686598599, "name": "CHITATO SAPI BUMBU B 75", "amount": 4 },
+      { "no": 89686598582, "name": "CHITATO SAPI BUMBU B 40", "amount": 7 },
+      { "no": 89686598018, "name": "CHITATO SAPI PG 19", "amount": 10 },
+      { "no": 89686600025, "name": "CHEETOS AYAM BAKAR 15", "amount": 4 },
+      { "no": 89686598575, "name": "CHITATO SAPI BAKAR 19", "amount": 7 }
+    ]
+  },
+  {
+    "transactionDatetime": 11,
+    "day": 2,
+    "detail": [
+      { "no": 89686598728, "name": "CHITATO SAPI PANGGANG 15", "amount": 6 },
+      { "no": 89686598162, "name": "CHITATO AYAM BBQ 19", "amount": 1 },
+      { "no": 89686598056, "name": "CHITATO SAPI PG 75", "amount": 3 },
+      { "no": 89686600001, "name": "CHHETOS SHOTS JAGUNG BAKAR 15", "amount": 9 },
+      { "no": 89686598322, "name": "CHITATO ORIGINAL FLAVOUR 35 GR", "amount": 10 }
+    ]
+  },
+  {
+    "transactionDatetime": 12,
+    "day": 2,
+    "detail": [
+      { "no": 89686598582, "name": "CHITATO SAPI BUMBU B 40", "amount": 8 },
+      { "no": 89686598018, "name": "CHITATO SAPI PG 19", "amount": 5 },
+      { "no": 89686598179, "name": "CHITATO AYAM BBQ 40", "amount": 2 },
+      { "no": 89686600025, "name": "CHEETOS AYAM BAKAR 15", "amount": 5 },
+      { "no": 89686596885, "name": "LAYS AYAM PAPRIKA 65", "amount": 6 }
+    ]
+  },
+  {
+    "transactionDatetime": 13,
+    "day": 2,
+    "detail": [
+      { "no": 89686598414, "name": "CHITATO AYAM BUMBU 19", "amount": 5 },
+      { "no": 89686598650, "name": "CHITATO OKONOMIYAKI 85", "amount": 1 },
+      { "no": 89686598025, "name": "CHITATO SAPI PG 40", "amount": 9 },
+      { "no": 89686598476, "name": "CHITATO AYAM BUMBU 75", "amount": 10 },
+      { "no": 89686598322, "name": "CHITATO ORIGINAL FLAVOUR 35 GR", "amount": 4 }
+    ]
+  },
+  {
+    "transactionDatetime": 14,
+    "day": 2,
+    "detail": [
+      { "no": 89686598476, "name": "CHITATO AYAM BUMBU 75", "amount": 4 },
+      { "no": 89686600247, "name": "CHEETOS JAGUNG BAKAR 40", "amount": 9 },
+      { "no": 89686598414, "name": "CHITATO AYAM BUMBU 19", "amount": 4 },
+      { "no": 89686600025, "name": "CHEETOS AYAM BAKAR 15", "amount": 8 },
+      { "no": 89686600810, "name": "CHEETOS NET SEAWEED 12", "amount": 7 }
+    ]
+  },
+  {
+    "transactionDatetime": 15,
+    "day": 2,
+    "detail": [
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 6 },
+      { "no": 89686598056, "name": "CHITATO SAPI PG 75", "amount": 3 },
+      { "no": 89686600810, "name": "CHEETOS NET SEAWEED 12", "amount": 2 },
+      { "no": 89686598322, "name": "CHITATO ORIGINAL FLAVOUR 35 GR", "amount": 9 },
+      { "no": 89686598162, "name": "CHITATO AYAM BBQ 19", "amount": 2 }
+    ]
+  },
+  {
+    "transactionDatetime": 16,
+    "day": 2,
+    "detail": [
+      { "no": 89686598728, "name": "CHITATO SAPI PANGGANG 15", "amount": 9 },
+      { "no": 89686600223, "name": "CHEETOS JAGUNG BAKAR 18", "amount": 6 },
+      { "no": 89686600544, "name": "CHEETOS NET BBQ 40", "amount": 5 },
+      { "no": 89686598575, "name": "CHITATO SAPI BAKAR 19", "amount": 4 },
+      { "no": 89686596878, "name": "LAYS AYAM PG PAPRIKA 40", "amount": 2 }
+    ]
+  },
+  {
+    "transactionDatetime": 17,
+    "day": 2,
+    "detail": [
+      { "no": 89686596878, "name": "LAYS AYAM PG PAPRIKA 40", "amount": 9 },
+      { "no": 89686598179, "name": "CHITATO AYAM BBQ 40", "amount": 8 },
+      { "no": 89686600001, "name": "CHHETOS SHOTS JAGUNG BAKAR 15", "amount": 10 },
+      { "no": 89686598926, "name": "CHITATO KEJU SUPREME 15", "amount": 1 },
+      { "no": 89686600346, "name": "CHEETOS KEJU AMERIKA 40", "amount": 7 }
+    ]
+  },
+  {
+    "transactionDatetime": 18,
+    "day": 2,
+    "detail": [
+      { "no": 89686598650, "name": "CHITATO OKONOMIYAKI 85", "amount": 9 },
+      { "no": 89686600223, "name": "CHEETOS JAGUNG BAKAR 18", "amount": 5 },
+      { "no": 89686598476, "name": "CHITATO AYAM BUMBU 75", "amount": 2 },
+      { "no": 89686598599, "name": "CHITATO SAPI BUMBU B 75", "amount": 1 },
+      { "no": 89686598728, "name": "CHITATO SAPI PANGGANG 15", "amount": 6 }
+    ]
+  },
+  {
+    "transactionDatetime": 19,
+    "day": 2,
+    "detail": [
+      { "no": 89686598018, "name": "CHITATO SAPI PG 19", "amount": 3 },
+      { "no": 89686600001, "name": "CHHETOS SHOTS JAGUNG BAKAR 15", "amount": 9 },
+      { "no": 89686598766, "name": "CHITATO SAPI PANGGANG 168", "amount": 6 },
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 9 },
+      { "no": 89686598056, "name": "CHITATO SAPI PG 75", "amount": 7 }
+    ]
+  },
+  {
+    "transactionDatetime": 20,
+    "day": 2,
+    "detail": [
+      { "no": 89686600544, "name": "CHEETOS NET BBQ 40", "amount": 5 },
+      { "no": 89686600223, "name": "CHEETOS JAGUNG BAKAR 18", "amount": 4 },
+      { "no": 89686598926, "name": "CHITATO KEJU SUPREME 15", "amount": 5 },
+      { "no": 89686598056, "name": "CHITATO SAPI PG 75", "amount": 2 },
+      { "no": 89686599046, "name": "CHITATO FOODIE SEAWEED 55", "amount": 3 }
+    ]
+  },
+  {
+    "transactionDatetime": 21,
+    "day": 2,
+    "detail": [
+      { "no": 89686598728, "name": "CHITATO SAPI PANGGANG 15", "amount": 9 },
+      { "no": 89686598957, "name": "CHITATO KEJU SUPREME 75", "amount": 9 },
+      { "no": 89686598353, "name": "CHITATO ASLI 75", "amount": 7 },
+      { "no": 89686600025, "name": "CHEETOS AYAM BAKAR 15", "amount": 7 },
+      { "no": 89686600346, "name": "CHEETOS KEJU AMERIKA 40", "amount": 9 }
+    ]
+  },
+  {
+    "transactionDatetime": 22,
+    "day": 2,
+    "detail": [
+      { "no": 89686598018, "name": "CHITATO SAPI PG 19", "amount": 8 },
+      { "no": 89686600513, "name": "CHEETOS NET BBQ 12", "amount": 1 },
+      { "no": 89686600223, "name": "CHEETOS JAGUNG BAKAR 18", "amount": 9 },
+      { "no": 89686598025, "name": "CHITATO SAPI PG 40", "amount": 2 },
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 9 }
+    ]
+  },
+  {
+    "transactionDatetime": 23,
+    "day": 2,
+    "detail": [
+      { "no": 89686598728, "name": "CHITATO SAPI PANGGANG 15", "amount": 1 },
+      { "no": 89686598025, "name": "CHITATO SAPI PG 40", "amount": 10 },
+      { "no": 89686598650, "name": "CHITATO OKONOMIYAKI 85", "amount": 8 },
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 5 },
+      { "no": 89686598575, "name": "CHITATO SAPI BAKAR 19", "amount": 8 }
+    ]
+  },
+  {
+    "transactionDatetime": 24,
+    "day": 2,
+    "detail": [
+      { "no": 89686598421, "name": "CHITATO AYAM BUMBU 40", "amount": 3 },
+      { "no": 89686600810, "name": "CHEETOS NET SEAWEED 12", "amount": 3 },
+      { "no": 89686600025, "name": "CHEETOS AYAM BAKAR 15", "amount": 6 },
+      { "no": 89686598025, "name": "CHITATO SAPI PG 40", "amount": 7 },
+      { "no": 89686596885, "name": "LAYS AYAM PAPRIKA 65", "amount": 1 }
+    ]
+  },
+  {
+    "transactionDatetime": 25,
+    "day": 2,
+    "detail": [
+      { "no": 89686598728, "name": "CHITATO SAPI PANGGANG 15", "amount": 8 },
+      { "no": 89686600810, "name": "CHEETOS NET SEAWEED 12", "amount": 5 },
+      { "no": 89686600025, "name": "CHEETOS AYAM BAKAR 15", "amount": 3 },
+      { "no": 89686598018, "name": "CHITATO SAPI PG 19", "amount": 4 },
+      { "no": 89686600346, "name": "CHEETOS KEJU AMERIKA 40", "amount": 6 }
+    ]
+  },
+  {
+    "transactionDatetime": 26,
+    "day": 2,
+    "detail": [
+      { "no": 89686598162, "name": "CHITATO AYAM BBQ 19", "amount": 7 },
+      { "no": 89686598179, "name": "CHITATO AYAM BBQ 40", "amount": 9 },
+      { "no": 89686598322, "name": "CHITATO ORIGINAL FLAVOUR 35 GR", "amount": 3 },
+      { "no": 89686598018, "name": "CHITATO SAPI PG 19", "amount": 9 },
+      { "no": 89686598421, "name": "CHITATO AYAM BUMBU 40", "amount": 2 }
+    ]
+  },
+  {
+    "transactionDatetime": 27,
+    "day": 2,
+    "detail": [
+      { "no": 89686598926, "name": "CHITATO KEJU SUPREME 15", "amount": 9 },
+      { "no": 89686598582, "name": "CHITATO SAPI BUMBU B 40", "amount": 9 },
+      { "no": 89686598575, "name": "CHITATO SAPI BAKAR 19", "amount": 5 },
+      { "no": 89686600810, "name": "CHEETOS NET SEAWEED 12", "amount": 6 },
+      { "no": 89686600247, "name": "CHEETOS JAGUNG BAKAR 40", "amount": 8 }
+    ]
+  },
+  {
+    "transactionDatetime": 28,
+    "day": 2,
+    "detail": [
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 8 },
+      { "no": 89686598728, "name": "CHITATO SAPI PANGGANG 15", "amount": 3 },
+      { "no": 89686598414, "name": "CHITATO AYAM BUMBU 19", "amount": 7 },
+      { "no": 89686598025, "name": "CHITATO SAPI PG 40", "amount": 3 },
+      { "no": 89686596878, "name": "LAYS AYAM PG PAPRIKA 40", "amount": 7 }
+    ]
+  },
+  {
+    "transactionDatetime": 29,
+    "day": 2,
+    "detail": [
+      { "no": 89686598018, "name": "CHITATO SAPI PG 19", "amount": 5 },
+      { "no": 89686598957, "name": "CHITATO KEJU SUPREME 75", "amount": 2 },
+      { "no": 89686599046, "name": "CHITATO FOODIE SEAWEED 55", "amount": 2 },
+      { "no": 89686596885, "name": "LAYS AYAM PAPRIKA 65", "amount": 3 },
+      { "no": 89686598421, "name": "CHITATO AYAM BUMBU 40", "amount": 7 }
+    ]
+  },
+  {
+    "transactionDatetime": 30,
+    "day": 2,
+    "detail": [
+      { "no": 89686598650, "name": "CHITATO OKONOMIYAKI 85", "amount": 5 },
+      { "no": 89686598766, "name": "CHITATO SAPI PANGGANG 168", "amount": 10 },
+      { "no": 89686600810, "name": "CHEETOS NET SEAWEED 12", "amount": 10 },
+      { "no": 89686598957, "name": "CHITATO KEJU SUPREME 75", "amount": 7 },
+      { "no": 89686598018, "name": "CHITATO SAPI PG 19", "amount": 10 }
+    ]
+  },
+  {
+    "transactionDatetime": 1,
+    "day": 3,
+    "detail": [
+      { "no": 89686598353, "name": "CHITATO ASLI 75", "amount": 10 },
+      { "no": 89686600810, "name": "CHEETOS NET SEAWEED 12", "amount": 2 },
+      { "no": 89686598056, "name": "CHITATO SAPI PG 75", "amount": 6 },
+      { "no": 89686600001, "name": "CHHETOS SHOTS JAGUNG BAKAR 15", "amount": 7 },
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 9 }
+    ]
+  },
+  {
+    "transactionDatetime": 2,
+    "day": 3,
+    "detail": [
+      { "no": 89686600810, "name": "CHEETOS NET SEAWEED 12", "amount": 4 },
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 6 },
+      { "no": 89686598650, "name": "CHITATO OKONOMIYAKI 85", "amount": 9 },
+      { "no": 89686598599, "name": "CHITATO SAPI BUMBU B 75", "amount": 6 },
+      { "no": 89686598322, "name": "CHITATO ORIGINAL FLAVOUR 35 GR", "amount": 8 }
+    ]
+  },
+  {
+    "transactionDatetime": 3,
+    "day": 3,
+    "detail": [
+      { "no": 89686600346, "name": "CHEETOS KEJU AMERIKA 40", "amount": 4 },
+      { "no": 89686600544, "name": "CHEETOS NET BBQ 40", "amount": 4 },
+      { "no": 89686598179, "name": "CHITATO AYAM BBQ 40", "amount": 2 },
+      { "no": 89686598582, "name": "CHITATO SAPI BUMBU B 40", "amount": 9 },
+      { "no": 89686598926, "name": "CHITATO KEJU SUPREME 15", "amount": 9 }
+    ]
+  },
+  {
+    "transactionDatetime": 4,
+    "day": 3,
+    "detail": [
+      { "no": 89686598056, "name": "CHITATO SAPI PG 75", "amount": 5 },
+      { "no": 89686599046, "name": "CHITATO FOODIE SEAWEED 55", "amount": 4 },
+      { "no": 89686598926, "name": "CHITATO KEJU SUPREME 15", "amount": 5 },
+      { "no": 89686598599, "name": "CHITATO SAPI BUMBU B 75", "amount": 6 },
+      { "no": 89686598018, "name": "CHITATO SAPI PG 19", "amount": 7 }
+    ]
+  },
+  {
+    "transactionDatetime": 5,
+    "day": 3,
+    "detail": [
+      { "no": 89686600513, "name": "CHEETOS NET BBQ 12", "amount": 1 },
+      { "no": 89686598926, "name": "CHITATO KEJU SUPREME 15", "amount": 7 },
+      { "no": 89686598025, "name": "CHITATO SAPI PG 40", "amount": 1 },
+      { "no": 89686600247, "name": "CHEETOS JAGUNG BAKAR 40", "amount": 4 },
+      { "no": 89686598582, "name": "CHITATO SAPI BUMBU B 40", "amount": 2 }
+    ]
+  },
+  {
+    "transactionDatetime": 6,
+    "day": 3,
+    "detail": [
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 3 },
+      { "no": 89686598353, "name": "CHITATO ASLI 75", "amount": 9 },
+      { "no": 89686600223, "name": "CHEETOS JAGUNG BAKAR 18", "amount": 10 },
+      { "no": 89686598025, "name": "CHITATO SAPI PG 40", "amount": 10 },
+      { "no": 89686600513, "name": "CHEETOS NET BBQ 12", "amount": 10 }
+    ]
+  },
+  {
+    "transactionDatetime": 7,
+    "day": 3,
+    "detail": [
+      { "no": 89686600001, "name": "CHHETOS SHOTS JAGUNG BAKAR 15", "amount": 10 },
+      { "no": 89686600810, "name": "CHEETOS NET SEAWEED 12", "amount": 6 },
+      { "no": 89686600346, "name": "CHEETOS KEJU AMERIKA 40", "amount": 3 },
+      { "no": 89686598353, "name": "CHITATO ASLI 75", "amount": 7 },
+      { "no": 89686598766, "name": "CHITATO SAPI PANGGANG 168", "amount": 10 }
+    ]
+  },
+  {
+    "transactionDatetime": 8,
+    "day": 3,
+    "detail": [
+      { "no": 89686598162, "name": "CHITATO AYAM BBQ 19", "amount": 4 },
+      { "no": 89686598056, "name": "CHITATO SAPI PG 75", "amount": 4 },
+      { "no": 89686600544, "name": "CHEETOS NET BBQ 40", "amount": 6 },
+      { "no": 89686598926, "name": "CHITATO KEJU SUPREME 15", "amount": 3 },
+      { "no": 89686598025, "name": "CHITATO SAPI PG 40", "amount": 1 }
+    ]
+  },
+  {
+    "transactionDatetime": 9,
+    "day": 3,
+    "detail": [
+      { "no": 89686598599, "name": "CHITATO SAPI BUMBU B 75", "amount": 4 },
+      { "no": 89686598179, "name": "CHITATO AYAM BBQ 40", "amount": 4 },
+      { "no": 89686598728, "name": "CHITATO SAPI PANGGANG 15", "amount": 6 },
+      { "no": 89686598650, "name": "CHITATO OKONOMIYAKI 85", "amount": 5 },
+      { "no": 89686600247, "name": "CHEETOS JAGUNG BAKAR 40", "amount": 1 }
+    ]
+  },
+  {
+    "transactionDatetime": 10,
+    "day": 3,
+    "detail": [
+      { "no": 89686600025, "name": "CHEETOS AYAM BAKAR 15", "amount": 6 },
+      { "no": 89686598421, "name": "CHITATO AYAM BUMBU 40", "amount": 6 },
+      { "no": 89686598322, "name": "CHITATO ORIGINAL FLAVOUR 35 GR", "amount": 10 },
+      { "no": 89686598650, "name": "CHITATO OKONOMIYAKI 85", "amount": 7 },
+      { "no": 89686598926, "name": "CHITATO KEJU SUPREME 15", "amount": 5 }
+    ]
+  },
+  {
+    "transactionDatetime": 11,
+    "day": 3,
+    "detail": [
+      { "no": 89686598179, "name": "CHITATO AYAM BBQ 40", "amount": 2 },
+      { "no": 89686600544, "name": "CHEETOS NET BBQ 40", "amount": 6 },
+      { "no": 89686600346, "name": "CHEETOS KEJU AMERIKA 40", "amount": 6 },
+      { "no": 89686598018, "name": "CHITATO SAPI PG 19", "amount": 9 },
+      { "no": 89686598421, "name": "CHITATO AYAM BUMBU 40", "amount": 5 }
+    ]
+  },
+  {
+    "transactionDatetime": 12,
+    "day": 3,
+    "detail": [
+      { "no": 89686598421, "name": "CHITATO AYAM BUMBU 40", "amount": 10 },
+      { "no": 89686600001, "name": "CHHETOS SHOTS JAGUNG BAKAR 15", "amount": 6 },
+      { "no": 89686598018, "name": "CHITATO SAPI PG 19", "amount": 3 },
+      { "no": 89686600025, "name": "CHEETOS AYAM BAKAR 15", "amount": 5 },
+      { "no": 89686598926, "name": "CHITATO KEJU SUPREME 15", "amount": 1 }
+    ]
+  },
+  {
+    "transactionDatetime": 13,
+    "day": 3,
+    "detail": [
+      { "no": 89686598476, "name": "CHITATO AYAM BUMBU 75", "amount": 8 },
+      { "no": 89686598957, "name": "CHITATO KEJU SUPREME 75", "amount": 2 },
+      { "no": 89686600025, "name": "CHEETOS AYAM BAKAR 15", "amount": 9 },
+      { "no": 89686598599, "name": "CHITATO SAPI BUMBU B 75", "amount": 8 },
+      { "no": 89686598575, "name": "CHITATO SAPI BAKAR 19", "amount": 1 }
+    ]
+  },
+  {
+    "transactionDatetime": 14,
+    "day": 3,
+    "detail": [
+      { "no": 89686598025, "name": "CHITATO SAPI PG 40", "amount": 8 },
+      { "no": 89686598599, "name": "CHITATO SAPI BUMBU B 75", "amount": 5 },
+      { "no": 89686598476, "name": "CHITATO AYAM BUMBU 75", "amount": 8 },
+      { "no": 89686598575, "name": "CHITATO SAPI BAKAR 19", "amount": 7 },
+      { "no": 89686598582, "name": "CHITATO SAPI BUMBU B 40", "amount": 4 }
+    ]
+  },
+  {
+    "transactionDatetime": 15,
+    "day": 3,
+    "detail": [
+      { "no": 89686599046, "name": "CHITATO FOODIE SEAWEED 55", "amount": 5 },
+      { "no": 89686598575, "name": "CHITATO SAPI BAKAR 19", "amount": 4 },
+      { "no": 89686598599, "name": "CHITATO SAPI BUMBU B 75", "amount": 10 },
+      { "no": 89686600001, "name": "CHHETOS SHOTS JAGUNG BAKAR 15", "amount": 10 },
+      { "no": 89686598582, "name": "CHITATO SAPI BUMBU B 40", "amount": 6 }
+    ]
+  },
+  {
+    "transactionDatetime": 16,
+    "day": 3,
+    "detail": [
+      { "no": 89686598025, "name": "CHITATO SAPI PG 40", "amount": 8 },
+      { "no": 89686598414, "name": "CHITATO AYAM BUMBU 19", "amount": 6 },
+      { "no": 89686600513, "name": "CHEETOS NET BBQ 12", "amount": 3 },
+      { "no": 89686598957, "name": "CHITATO KEJU SUPREME 75", "amount": 6 },
+      { "no": 89686600544, "name": "CHEETOS NET BBQ 40", "amount": 8 }
+    ]
+  },
+  {
+    "transactionDatetime": 17,
+    "day": 3,
+    "detail": [
+      { "no": 89686598353, "name": "CHITATO ASLI 75", "amount": 7 },
+      { "no": 89686600223, "name": "CHEETOS JAGUNG BAKAR 18", "amount": 10 },
+      { "no": 89686598322, "name": "CHITATO ORIGINAL FLAVOUR 35 GR", "amount": 7 },
+      { "no": 89686598926, "name": "CHITATO KEJU SUPREME 15", "amount": 4 },
+      { "no": 89686598650, "name": "CHITATO OKONOMIYAKI 85", "amount": 9 }
+    ]
+  },
+  {
+    "transactionDatetime": 18,
+    "day": 3,
+    "detail": [
+      { "no": 89686598476, "name": "CHITATO AYAM BUMBU 75", "amount": 3 },
+      { "no": 89686598957, "name": "CHITATO KEJU SUPREME 75", "amount": 9 },
+      { "no": 89686598179, "name": "CHITATO AYAM BBQ 40", "amount": 4 },
+      { "no": 89686600544, "name": "CHEETOS NET BBQ 40", "amount": 3 },
+      { "no": 89686598025, "name": "CHITATO SAPI PG 40", "amount": 10 }
+    ]
+  },
+  {
+    "transactionDatetime": 19,
+    "day": 3,
+    "detail": [
+      { "no": 89686600001, "name": "CHHETOS SHOTS JAGUNG BAKAR 15", "amount": 3 },
+      { "no": 89686600810, "name": "CHEETOS NET SEAWEED 12", "amount": 5 },
+      { "no": 89686600346, "name": "CHEETOS KEJU AMERIKA 40", "amount": 2 },
+      { "no": 89686600513, "name": "CHEETOS NET BBQ 12", "amount": 5 },
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 8 }
+    ]
+  },
+  {
+    "transactionDatetime": 20,
+    "day": 3,
+    "detail": [
+      { "no": 89686598322, "name": "CHITATO ORIGINAL FLAVOUR 35 GR", "amount": 3 },
+      { "no": 89686598162, "name": "CHITATO AYAM BBQ 19", "amount": 6 },
+      { "no": 89686600025, "name": "CHEETOS AYAM BAKAR 15", "amount": 9 },
+      { "no": 89686596878, "name": "LAYS AYAM PG PAPRIKA 40", "amount": 6 },
+      { "no": 89686600247, "name": "CHEETOS JAGUNG BAKAR 40", "amount": 4 }
+    ]
+  },
+  {
+    "transactionDatetime": 21,
+    "day": 3,
+    "detail": [
+      { "no": 89686596878, "name": "LAYS AYAM PG PAPRIKA 40", "amount": 10 },
+      { "no": 89686598766, "name": "CHITATO SAPI PANGGANG 168", "amount": 9 },
+      { "no": 89686598018, "name": "CHITATO SAPI PG 19", "amount": 1 },
+      { "no": 89686598179, "name": "CHITATO AYAM BBQ 40", "amount": 2 },
+      { "no": 89686600025, "name": "CHEETOS AYAM BAKAR 15", "amount": 4 }
+    ]
+  },
+  {
+    "transactionDatetime": 22,
+    "day": 3,
+    "detail": [
+      { "no": 89686598582, "name": "CHITATO SAPI BUMBU B 40", "amount": 6 },
+      { "no": 89686596878, "name": "LAYS AYAM PG PAPRIKA 40", "amount": 8 },
+      { "no": 89686598766, "name": "CHITATO SAPI PANGGANG 168", "amount": 5 },
+      { "no": 89686598179, "name": "CHITATO AYAM BBQ 40", "amount": 2 },
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 4 }
+    ]
+  },
+  {
+    "transactionDatetime": 23,
+    "day": 3,
+    "detail": [
+      { "no": 89686598728, "name": "CHITATO SAPI PANGGANG 15", "amount": 7 },
+      { "no": 89686598025, "name": "CHITATO SAPI PG 40", "amount": 4 },
+      { "no": 89686598957, "name": "CHITATO KEJU SUPREME 75", "amount": 8 },
+      { "no": 89686596878, "name": "LAYS AYAM PG PAPRIKA 40", "amount": 8 },
+      { "no": 89686598650, "name": "CHITATO OKONOMIYAKI 85", "amount": 5 }
+    ]
+  },
+  {
+    "transactionDatetime": 24,
+    "day": 3,
+    "detail": [
+      { "no": 89686598025, "name": "CHITATO SAPI PG 40", "amount": 4 },
+      { "no": 89686598582, "name": "CHITATO SAPI BUMBU B 40", "amount": 7 },
+      { "no": 89686598926, "name": "CHITATO KEJU SUPREME 15", "amount": 6 },
+      { "no": 89686598353, "name": "CHITATO ASLI 75", "amount": 2 },
+      { "no": 89686600513, "name": "CHEETOS NET BBQ 12", "amount": 10 }
+    ]
+  },
+  {
+    "transactionDatetime": 25,
+    "day": 3,
+    "detail": [
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 10 },
+      { "no": 89686600544, "name": "CHEETOS NET BBQ 40", "amount": 4 },
+      { "no": 89686598476, "name": "CHITATO AYAM BUMBU 75", "amount": 8 },
+      { "no": 89686598421, "name": "CHITATO AYAM BUMBU 40", "amount": 10 },
+      { "no": 89686599046, "name": "CHITATO FOODIE SEAWEED 55", "amount": 7 }
+    ]
+  },
+  {
+    "transactionDatetime": 26,
+    "day": 3,
+    "detail": [
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 8 },
+      { "no": 89686598476, "name": "CHITATO AYAM BUMBU 75", "amount": 10 },
+      { "no": 89686598599, "name": "CHITATO SAPI BUMBU B 75", "amount": 10 },
+      { "no": 89686598162, "name": "CHITATO AYAM BBQ 19", "amount": 8 },
+      { "no": 89686598650, "name": "CHITATO OKONOMIYAKI 85", "amount": 2 }
+    ]
+  },
+  {
+    "transactionDatetime": 27,
+    "day": 3,
+    "detail": [
+      { "no": 89686600810, "name": "CHEETOS NET SEAWEED 12", "amount": 5 },
+      { "no": 89686598599, "name": "CHITATO SAPI BUMBU B 75", "amount": 1 },
+      { "no": 89686599046, "name": "CHITATO FOODIE SEAWEED 55", "amount": 9 },
+      { "no": 89686596885, "name": "LAYS AYAM PAPRIKA 65", "amount": 3 },
+      { "no": 89686598421, "name": "CHITATO AYAM BUMBU 40", "amount": 4 }
+    ]
+  },
+  {
+    "transactionDatetime": 28,
+    "day": 3,
+    "detail": [
+      { "no": 89686598162, "name": "CHITATO AYAM BBQ 19", "amount": 3 },
+      { "no": 89686598018, "name": "CHITATO SAPI PG 19", "amount": 1 },
+      { "no": 89686598926, "name": "CHITATO KEJU SUPREME 15", "amount": 9 },
+      { "no": 89686600025, "name": "CHEETOS AYAM BAKAR 15", "amount": 10 },
+      { "no": 89686600544, "name": "CHEETOS NET BBQ 40", "amount": 2 }
+    ]
+  },
+  {
+    "transactionDatetime": 29,
+    "day": 3,
+    "detail": [
+      { "no": 89686600247, "name": "CHEETOS JAGUNG BAKAR 40", "amount": 10 },
+      { "no": 89686598728, "name": "CHITATO SAPI PANGGANG 15", "amount": 10 },
+      { "no": 89686600223, "name": "CHEETOS JAGUNG BAKAR 18", "amount": 4 },
+      { "no": 89686600544, "name": "CHEETOS NET BBQ 40", "amount": 2 },
+      { "no": 89686598476, "name": "CHITATO AYAM BUMBU 75", "amount": 7 }
+    ]
+  },
+  {
+    "transactionDatetime": 30,
+    "day": 3,
+    "detail": [
+      { "no": 89686598025, "name": "CHITATO SAPI PG 40", "amount": 10 },
+      { "no": 89686598575, "name": "CHITATO SAPI BAKAR 19", "amount": 10 },
+      { "no": 89686600346, "name": "CHEETOS KEJU AMERIKA 40", "amount": 3 },
+      { "no": 89686598582, "name": "CHITATO SAPI BUMBU B 40", "amount": 9 },
+      { "no": 89686598957, "name": "CHITATO KEJU SUPREME 75", "amount": 2 }
+    ]
+  },
+  {
+    "transactionDatetime": 1,
+    "day": 4,
+    "detail": [
+      { "no": 89686600810, "name": "CHEETOS NET SEAWEED 12", "amount": 10 },
+      { "no": 89686598476, "name": "CHITATO AYAM BUMBU 75", "amount": 2 },
+      { "no": 89686600513, "name": "CHEETOS NET BBQ 12", "amount": 9 },
+      { "no": 89686598322, "name": "CHITATO ORIGINAL FLAVOUR 35 GR", "amount": 6 },
+      { "no": 89686598957, "name": "CHITATO KEJU SUPREME 75", "amount": 8 }
+    ]
+  },
+  {
+    "transactionDatetime": 2,
+    "day": 4,
+    "detail": [
+      { "no": 89686600001, "name": "CHHETOS SHOTS JAGUNG BAKAR 15", "amount": 5 },
+      { "no": 89686598414, "name": "CHITATO AYAM BUMBU 19", "amount": 9 },
+      { "no": 89686598025, "name": "CHITATO SAPI PG 40", "amount": 2 },
+      { "no": 89686598599, "name": "CHITATO SAPI BUMBU B 75", "amount": 7 },
+      { "no": 89686599046, "name": "CHITATO FOODIE SEAWEED 55", "amount": 10 }
+    ]
+  },
+  {
+    "transactionDatetime": 3,
+    "day": 4,
+    "detail": [
+      { "no": 89686598650, "name": "CHITATO OKONOMIYAKI 85", "amount": 2 },
+      { "no": 89686600001, "name": "CHHETOS SHOTS JAGUNG BAKAR 15", "amount": 10 },
+      { "no": 89686598414, "name": "CHITATO AYAM BUMBU 19", "amount": 7 },
+      { "no": 89686600810, "name": "CHEETOS NET SEAWEED 12", "amount": 8 },
+      { "no": 89686598957, "name": "CHITATO KEJU SUPREME 75", "amount": 7 }
+    ]
+  },
+  {
+    "transactionDatetime": 4,
+    "day": 4,
+    "detail": [
+      { "no": 89686598322, "name": "CHITATO ORIGINAL FLAVOUR 35 GR", "amount": 7 },
+      { "no": 89686598582, "name": "CHITATO SAPI BUMBU B 40", "amount": 5 },
+      { "no": 89686598476, "name": "CHITATO AYAM BUMBU 75", "amount": 5 },
+      { "no": 89686600513, "name": "CHEETOS NET BBQ 12", "amount": 3 },
+      { "no": 89686598179, "name": "CHITATO AYAM BBQ 40", "amount": 6 }
+    ]
+  },
+  {
+    "transactionDatetime": 5,
+    "day": 4,
+    "detail": [
+      { "no": 89686600810, "name": "CHEETOS NET SEAWEED 12", "amount": 2 },
+      { "no": 89686598025, "name": "CHITATO SAPI PG 40", "amount": 1 },
+      { "no": 89686598414, "name": "CHITATO AYAM BUMBU 19", "amount": 2 },
+      { "no": 89686598476, "name": "CHITATO AYAM BUMBU 75", "amount": 1 },
+      { "no": 89686598957, "name": "CHITATO KEJU SUPREME 75", "amount": 8 }
+    ]
+  },
+  {
+    "transactionDatetime": 6,
+    "day": 4,
+    "detail": [
+      { "no": 89686600025, "name": "CHEETOS AYAM BAKAR 15", "amount": 8 },
+      { "no": 89686600001, "name": "CHHETOS SHOTS JAGUNG BAKAR 15", "amount": 3 },
+      { "no": 89686598322, "name": "CHITATO ORIGINAL FLAVOUR 35 GR", "amount": 7 },
+      { "no": 89686598353, "name": "CHITATO ASLI 75", "amount": 8 },
+      { "no": 89686598575, "name": "CHITATO SAPI BAKAR 19", "amount": 10 }
+    ]
+  },
+  {
+    "transactionDatetime": 7,
+    "day": 4,
+    "detail": [
+      { "no": 89686598179, "name": "CHITATO AYAM BBQ 40", "amount": 9 },
+      { "no": 89686598421, "name": "CHITATO AYAM BUMBU 40", "amount": 7 },
+      { "no": 89686600001, "name": "CHHETOS SHOTS JAGUNG BAKAR 15", "amount": 4 },
+      { "no": 89686598414, "name": "CHITATO AYAM BUMBU 19", "amount": 6 },
+      { "no": 89686600247, "name": "CHEETOS JAGUNG BAKAR 40", "amount": 3 }
+    ]
+  },
+  {
+    "transactionDatetime": 8,
+    "day": 4,
+    "detail": [
+      { "no": 89686598179, "name": "CHITATO AYAM BBQ 40", "amount": 1 },
+      { "no": 89686598926, "name": "CHITATO KEJU SUPREME 15", "amount": 2 },
+      { "no": 89686600544, "name": "CHEETOS NET BBQ 40", "amount": 4 },
+      { "no": 89686600001, "name": "CHHETOS SHOTS JAGUNG BAKAR 15", "amount": 6 },
+      { "no": 89686598476, "name": "CHITATO AYAM BUMBU 75", "amount": 6 }
+    ]
+  },
+  {
+    "transactionDatetime": 9,
+    "day": 4,
+    "detail": [
+      { "no": 89686598056, "name": "CHITATO SAPI PG 75", "amount": 3 },
+      { "no": 89686598926, "name": "CHITATO KEJU SUPREME 15", "amount": 7 },
+      { "no": 89686596885, "name": "LAYS AYAM PAPRIKA 65", "amount": 7 },
+      { "no": 89686598957, "name": "CHITATO KEJU SUPREME 75", "amount": 4 },
+      { "no": 89686596878, "name": "LAYS AYAM PG PAPRIKA 40", "amount": 9 }
+    ]
+  },
+  {
+    "transactionDatetime": 10,
+    "day": 4,
+    "detail": [
+      { "no": 89686599046, "name": "CHITATO FOODIE SEAWEED 55", "amount": 4 },
+      { "no": 89686600223, "name": "CHEETOS JAGUNG BAKAR 18", "amount": 6 },
+      { "no": 89686598421, "name": "CHITATO AYAM BUMBU 40", "amount": 4 },
+      { "no": 89686598025, "name": "CHITATO SAPI PG 40", "amount": 3 },
+      { "no": 89686600346, "name": "CHEETOS KEJU AMERIKA 40", "amount": 5 }
+    ]
+  },
+  {
+    "transactionDatetime": 11,
+    "day": 4,
+    "detail": [
+      { "no": 89686600223, "name": "CHEETOS JAGUNG BAKAR 18", "amount": 1 },
+      { "no": 89686598025, "name": "CHITATO SAPI PG 40", "amount": 4 },
+      { "no": 89686598179, "name": "CHITATO AYAM BBQ 40", "amount": 4 },
+      { "no": 89686598322, "name": "CHITATO ORIGINAL FLAVOUR 35 GR", "amount": 5 },
+      { "no": 89686600544, "name": "CHEETOS NET BBQ 40", "amount": 7 }
+    ]
+  },
+  {
+    "transactionDatetime": 12,
+    "day": 4,
+    "detail": [
+      { "no": 89686598582, "name": "CHITATO SAPI BUMBU B 40", "amount": 2 },
+      { "no": 89686600544, "name": "CHEETOS NET BBQ 40", "amount": 10 },
+      { "no": 89686600001, "name": "CHHETOS SHOTS JAGUNG BAKAR 15", "amount": 9 },
+      { "no": 89686598728, "name": "CHITATO SAPI PANGGANG 15", "amount": 4 },
+      { "no": 89686596885, "name": "LAYS AYAM PAPRIKA 65", "amount": 4 }
+    ]
+  },
+  {
+    "transactionDatetime": 13,
+    "day": 4,
+    "detail": [
+      { "no": 89686598421, "name": "CHITATO AYAM BUMBU 40", "amount": 6 },
+      { "no": 89686600247, "name": "CHEETOS JAGUNG BAKAR 40", "amount": 7 },
+      { "no": 89686598056, "name": "CHITATO SAPI PG 75", "amount": 1 },
+      { "no": 89686598322, "name": "CHITATO ORIGINAL FLAVOUR 35 GR", "amount": 3 },
+      { "no": 89686598582, "name": "CHITATO SAPI BUMBU B 40", "amount": 4 }
+    ]
+  },
+  {
+    "transactionDatetime": 14,
+    "day": 4,
+    "detail": [
+      { "no": 89686598322, "name": "CHITATO ORIGINAL FLAVOUR 35 GR", "amount": 8 },
+      { "no": 89686599046, "name": "CHITATO FOODIE SEAWEED 55", "amount": 2 },
+      { "no": 89686598599, "name": "CHITATO SAPI BUMBU B 75", "amount": 1 },
+      { "no": 89686598476, "name": "CHITATO AYAM BUMBU 75", "amount": 6 },
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 4 }
+    ]
+  },
+  {
+    "transactionDatetime": 15,
+    "day": 4,
+    "detail": [
+      { "no": 89686598179, "name": "CHITATO AYAM BBQ 40", "amount": 9 },
+      { "no": 89686600513, "name": "CHEETOS NET BBQ 12", "amount": 7 },
+      { "no": 89686596878, "name": "LAYS AYAM PG PAPRIKA 40", "amount": 8 },
+      { "no": 89686598926, "name": "CHITATO KEJU SUPREME 15", "amount": 5 },
+      { "no": 89686600346, "name": "CHEETOS KEJU AMERIKA 40", "amount": 3 }
+    ]
+  },
+  {
+    "transactionDatetime": 16,
+    "day": 4,
+    "detail": [
+      { "no": 89686600544, "name": "CHEETOS NET BBQ 40", "amount": 5 },
+      { "no": 89686598476, "name": "CHITATO AYAM BUMBU 75", "amount": 10 },
+      { "no": 89686598599, "name": "CHITATO SAPI BUMBU B 75", "amount": 7 },
+      { "no": 89686598025, "name": "CHITATO SAPI PG 40", "amount": 5 },
+      { "no": 89686596885, "name": "LAYS AYAM PAPRIKA 65", "amount": 10 }
+    ]
+  },
+  {
+    "transactionDatetime": 17,
+    "day": 4,
+    "detail": [
+      { "no": 89686598056, "name": "CHITATO SAPI PG 75", "amount": 7 },
+      { "no": 89686600544, "name": "CHEETOS NET BBQ 40", "amount": 9 },
+      { "no": 89686598476, "name": "CHITATO AYAM BUMBU 75", "amount": 2 },
+      { "no": 89686598421, "name": "CHITATO AYAM BUMBU 40", "amount": 5 },
+      { "no": 89686600247, "name": "CHEETOS JAGUNG BAKAR 40", "amount": 6 }
+    ]
+  },
+  {
+    "transactionDatetime": 18,
+    "day": 4,
+    "detail": [
+      { "no": 89686600513, "name": "CHEETOS NET BBQ 12", "amount": 5 },
+      { "no": 89686598018, "name": "CHITATO SAPI PG 19", "amount": 5 },
+      { "no": 89686600001, "name": "CHHETOS SHOTS JAGUNG BAKAR 15", "amount": 9 },
+      { "no": 89686598926, "name": "CHITATO KEJU SUPREME 15", "amount": 3 },
+      { "no": 89686599046, "name": "CHITATO FOODIE SEAWEED 55", "amount": 6 }
+    ]
+  },
+  {
+    "transactionDatetime": 19,
+    "day": 4,
+    "detail": [
+      { "no": 89686598018, "name": "CHITATO SAPI PG 19", "amount": 9 },
+      { "no": 89686598575, "name": "CHITATO SAPI BAKAR 19", "amount": 7 },
+      { "no": 89686598322, "name": "CHITATO ORIGINAL FLAVOUR 35 GR", "amount": 8 },
+      { "no": 89686600247, "name": "CHEETOS JAGUNG BAKAR 40", "amount": 10 },
+      { "no": 89686598599, "name": "CHITATO SAPI BUMBU B 75", "amount": 7 }
+    ]
+  },
+  {
+    "transactionDatetime": 20,
+    "day": 4,
+    "detail": [
+      { "no": 89686598766, "name": "CHITATO SAPI PANGGANG 168", "amount": 5 },
+      { "no": 89686598056, "name": "CHITATO SAPI PG 75", "amount": 9 },
+      { "no": 89686596878, "name": "LAYS AYAM PG PAPRIKA 40", "amount": 9 },
+      { "no": 89686600544, "name": "CHEETOS NET BBQ 40", "amount": 3 },
+      { "no": 89686600223, "name": "CHEETOS JAGUNG BAKAR 18", "amount": 3 }
+    ]
+  },
+  {
+    "transactionDatetime": 21,
+    "day": 4,
+    "detail": [
+      { "no": 89686598582, "name": "CHITATO SAPI BUMBU B 40", "amount": 10 },
+      { "no": 89686598957, "name": "CHITATO KEJU SUPREME 75", "amount": 3 },
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 4 },
+      { "no": 89686596885, "name": "LAYS AYAM PAPRIKA 65", "amount": 7 },
+      { "no": 89686600513, "name": "CHEETOS NET BBQ 12", "amount": 8 }
+    ]
+  },
+  {
+    "transactionDatetime": 22,
+    "day": 4,
+    "detail": [
+      { "no": 89686598926, "name": "CHITATO KEJU SUPREME 15", "amount": 8 },
+      { "no": 89686598414, "name": "CHITATO AYAM BUMBU 19", "amount": 8 },
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 4 },
+      { "no": 89686600810, "name": "CHEETOS NET SEAWEED 12", "amount": 3 },
+      { "no": 89686598421, "name": "CHITATO AYAM BUMBU 40", "amount": 3 }
+    ]
+  },
+  {
+    "transactionDatetime": 23,
+    "day": 4,
+    "detail": [
+      { "no": 89686598650, "name": "CHITATO OKONOMIYAKI 85", "amount": 3 },
+      { "no": 89686598476, "name": "CHITATO AYAM BUMBU 75", "amount": 9 },
+      { "no": 89686596878, "name": "LAYS AYAM PG PAPRIKA 40", "amount": 5 },
+      { "no": 89686598018, "name": "CHITATO SAPI PG 19", "amount": 4 },
+      { "no": 89686598322, "name": "CHITATO ORIGINAL FLAVOUR 35 GR", "amount": 1 }
+    ]
+  },
+  {
+    "transactionDatetime": 24,
+    "day": 4,
+    "detail": [
+      { "no": 89686598957, "name": "CHITATO KEJU SUPREME 75", "amount": 1 },
+      { "no": 89686596878, "name": "LAYS AYAM PG PAPRIKA 40", "amount": 8 },
+      { "no": 89686598650, "name": "CHITATO OKONOMIYAKI 85", "amount": 4 },
+      { "no": 89686600810, "name": "CHEETOS NET SEAWEED 12", "amount": 10 },
+      { "no": 89686598056, "name": "CHITATO SAPI PG 75", "amount": 6 }
+    ]
+  },
+  {
+    "transactionDatetime": 25,
+    "day": 4,
+    "detail": [
+      { "no": 89686598414, "name": "CHITATO AYAM BUMBU 19", "amount": 4 },
+      { "no": 89686596878, "name": "LAYS AYAM PG PAPRIKA 40", "amount": 4 },
+      { "no": 89686600810, "name": "CHEETOS NET SEAWEED 12", "amount": 5 },
+      { "no": 89686598476, "name": "CHITATO AYAM BUMBU 75", "amount": 4 },
+      { "no": 89686598599, "name": "CHITATO SAPI BUMBU B 75", "amount": 2 }
+    ]
+  },
+  {
+    "transactionDatetime": 26,
+    "day": 4,
+    "detail": [
+      { "no": 89686600810, "name": "CHEETOS NET SEAWEED 12", "amount": 9 },
+      { "no": 89686598476, "name": "CHITATO AYAM BUMBU 75", "amount": 7 },
+      { "no": 89686598025, "name": "CHITATO SAPI PG 40", "amount": 6 },
+      { "no": 89686598414, "name": "CHITATO AYAM BUMBU 19", "amount": 6 },
+      { "no": 89686600001, "name": "CHHETOS SHOTS JAGUNG BAKAR 15", "amount": 4 }
+    ]
+  },
+  {
+    "transactionDatetime": 27,
+    "day": 4,
+    "detail": [
+      { "no": 89686598650, "name": "CHITATO OKONOMIYAKI 85", "amount": 4 },
+      { "no": 89686598421, "name": "CHITATO AYAM BUMBU 40", "amount": 6 },
+      { "no": 89686600346, "name": "CHEETOS KEJU AMERIKA 40", "amount": 1 },
+      { "no": 89686598957, "name": "CHITATO KEJU SUPREME 75", "amount": 2 },
+      { "no": 89686596885, "name": "LAYS AYAM PAPRIKA 65", "amount": 1 }
+    ]
+  },
+  {
+    "transactionDatetime": 28,
+    "day": 4,
+    "detail": [
+      { "no": 89686598414, "name": "CHITATO AYAM BUMBU 19", "amount": 7 },
+      { "no": 89686598926, "name": "CHITATO KEJU SUPREME 15", "amount": 10 },
+      { "no": 89686596885, "name": "LAYS AYAM PAPRIKA 65", "amount": 5 },
+      { "no": 89686600513, "name": "CHEETOS NET BBQ 12", "amount": 2 },
+      { "no": 89686600346, "name": "CHEETOS KEJU AMERIKA 40", "amount": 8 }
+    ]
+  },
+  {
+    "transactionDatetime": 29,
+    "day": 4,
+    "detail": [
+      { "no": 89686600247, "name": "CHEETOS JAGUNG BAKAR 40", "amount": 7 },
+      { "no": 89686596878, "name": "LAYS AYAM PG PAPRIKA 40", "amount": 6 },
+      { "no": 89686598582, "name": "CHITATO SAPI BUMBU B 40", "amount": 4 },
+      { "no": 89686598476, "name": "CHITATO AYAM BUMBU 75", "amount": 4 },
+      { "no": 89686598018, "name": "CHITATO SAPI PG 19", "amount": 2 }
+    ]
+  },
+  {
+    "transactionDatetime": 30,
+    "day": 4,
+    "detail": [
+      { "no": 89686598056, "name": "CHITATO SAPI PG 75", "amount": 5 },
+      { "no": 89686598476, "name": "CHITATO AYAM BUMBU 75", "amount": 6 },
+      { "no": 89686600810, "name": "CHEETOS NET SEAWEED 12", "amount": 10 },
+      { "no": 89686600247, "name": "CHEETOS JAGUNG BAKAR 40", "amount": 2 },
+      { "no": 89686598162, "name": "CHITATO AYAM BBQ 19", "amount": 4 }
+    ]
+  },
+  {
+    "transactionDatetime": 1,
+    "day": 5,
+    "detail": [
+      { "no": 89686598025, "name": "CHITATO SAPI PG 40", "amount": 10 },
+      { "no": 89686600247, "name": "CHEETOS JAGUNG BAKAR 40", "amount": 2 },
+      { "no": 89686598414, "name": "CHITATO AYAM BUMBU 19", "amount": 3 },
+      { "no": 89686600001, "name": "CHHETOS SHOTS JAGUNG BAKAR 15", "amount": 5 },
+      { "no": 89686598728, "name": "CHITATO SAPI PANGGANG 15", "amount": 5 }
+    ]
+  },
+  {
+    "transactionDatetime": 2,
+    "day": 5,
+    "detail": [
+      { "no": 89686600346, "name": "CHEETOS KEJU AMERIKA 40", "amount": 8 },
+      { "no": 89686598582, "name": "CHITATO SAPI BUMBU B 40", "amount": 2 },
+      { "no": 89686598353, "name": "CHITATO ASLI 75", "amount": 10 },
+      { "no": 89686598575, "name": "CHITATO SAPI BAKAR 19", "amount": 10 },
+      { "no": 89686596885, "name": "LAYS AYAM PAPRIKA 65", "amount": 8 }
+    ]
+  },
+  {
+    "transactionDatetime": 3,
+    "day": 5,
+    "detail": [
+      { "no": 89686596878, "name": "LAYS AYAM PG PAPRIKA 40", "amount": 4 },
+      { "no": 89686598414, "name": "CHITATO AYAM BUMBU 19", "amount": 1 },
+      { "no": 89686598650, "name": "CHITATO OKONOMIYAKI 85", "amount": 10 },
+      { "no": 89686600223, "name": "CHEETOS JAGUNG BAKAR 18", "amount": 2 },
+      { "no": 89686598322, "name": "CHITATO ORIGINAL FLAVOUR 35 GR", "amount": 7 }
+    ]
+  },
+  {
+    "transactionDatetime": 4,
+    "day": 5,
+    "detail": [
+      { "no": 89686598414, "name": "CHITATO AYAM BUMBU 19", "amount": 1 },
+      { "no": 89686598926, "name": "CHITATO KEJU SUPREME 15", "amount": 3 },
+      { "no": 89686600001, "name": "CHHETOS SHOTS JAGUNG BAKAR 15", "amount": 6 },
+      { "no": 89686598599, "name": "CHITATO SAPI BUMBU B 75", "amount": 5 },
+      { "no": 89686600810, "name": "CHEETOS NET SEAWEED 12", "amount": 4 }
+    ]
+  },
+  {
+    "transactionDatetime": 5,
+    "day": 5,
+    "detail": [
+      { "no": 89686598179, "name": "CHITATO AYAM BBQ 40", "amount": 7 },
+      { "no": 89686600810, "name": "CHEETOS NET SEAWEED 12", "amount": 10 },
+      { "no": 89686598162, "name": "CHITATO AYAM BBQ 19", "amount": 1 },
+      { "no": 89686598353, "name": "CHITATO ASLI 75", "amount": 9 },
+      { "no": 89686600346, "name": "CHEETOS KEJU AMERIKA 40", "amount": 2 }
+    ]
+  },
+  {
+    "transactionDatetime": 6,
+    "day": 5,
+    "detail": [
+      { "no": 89686598056, "name": "CHITATO SAPI PG 75", "amount": 5 },
+      { "no": 89686598926, "name": "CHITATO KEJU SUPREME 15", "amount": 3 },
+      { "no": 89686600247, "name": "CHEETOS JAGUNG BAKAR 40", "amount": 2 },
+      { "no": 89686596878, "name": "LAYS AYAM PG PAPRIKA 40", "amount": 7 },
+      { "no": 89686600223, "name": "CHEETOS JAGUNG BAKAR 18", "amount": 7 }
+    ]
+  },
+  {
+    "transactionDatetime": 7,
+    "day": 5,
+    "detail": [
+      { "no": 89686598650, "name": "CHITATO OKONOMIYAKI 85", "amount": 9 },
+      { "no": 89686598476, "name": "CHITATO AYAM BUMBU 75", "amount": 7 },
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 2 },
+      { "no": 89686598728, "name": "CHITATO SAPI PANGGANG 15", "amount": 2 },
+      { "no": 89686600544, "name": "CHEETOS NET BBQ 40", "amount": 3 }
+    ]
+  },
+  {
+    "transactionDatetime": 8,
+    "day": 5,
+    "detail": [
+      { "no": 89686599046, "name": "CHITATO FOODIE SEAWEED 55", "amount": 3 },
+      { "no": 89686598575, "name": "CHITATO SAPI BAKAR 19", "amount": 10 },
+      { "no": 89686600001, "name": "CHHETOS SHOTS JAGUNG BAKAR 15", "amount": 1 },
+      { "no": 89686598056, "name": "CHITATO SAPI PG 75", "amount": 2 },
+      { "no": 89686598728, "name": "CHITATO SAPI PANGGANG 15", "amount": 7 }
+    ]
+  },
+  {
+    "transactionDatetime": 9,
+    "day": 5,
+    "detail": [
+      { "no": 89686600513, "name": "CHEETOS NET BBQ 12", "amount": 4 },
+      { "no": 89686600810, "name": "CHEETOS NET SEAWEED 12", "amount": 7 },
+      { "no": 89686598575, "name": "CHITATO SAPI BAKAR 19", "amount": 9 },
+      { "no": 89686600247, "name": "CHEETOS JAGUNG BAKAR 40", "amount": 3 },
+      { "no": 89686598766, "name": "CHITATO SAPI PANGGANG 168", "amount": 9 }
+    ]
+  },
+  {
+    "transactionDatetime": 10,
+    "day": 5,
+    "detail": [
+      { "no": 89686598414, "name": "CHITATO AYAM BUMBU 19", "amount": 3 },
+      { "no": 89686598162, "name": "CHITATO AYAM BBQ 19", "amount": 9 },
+      { "no": 89686598322, "name": "CHITATO ORIGINAL FLAVOUR 35 GR", "amount": 4 },
+      { "no": 89686598025, "name": "CHITATO SAPI PG 40", "amount": 4 },
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 5 }
+    ]
+  },
+  {
+    "transactionDatetime": 11,
+    "day": 5,
+    "detail": [
+      { "no": 89686598926, "name": "CHITATO KEJU SUPREME 15", "amount": 9 },
+      { "no": 89686598582, "name": "CHITATO SAPI BUMBU B 40", "amount": 2 },
+      { "no": 89686598353, "name": "CHITATO ASLI 75", "amount": 5 },
+      { "no": 89686600810, "name": "CHEETOS NET SEAWEED 12", "amount": 7 },
+      { "no": 89686598599, "name": "CHITATO SAPI BUMBU B 75", "amount": 4 }
+    ]
+  },
+  {
+    "transactionDatetime": 12,
+    "day": 5,
+    "detail": [
+      { "no": 89686596885, "name": "LAYS AYAM PAPRIKA 65", "amount": 1 },
+      { "no": 89686600346, "name": "CHEETOS KEJU AMERIKA 40", "amount": 7 },
+      { "no": 89686598650, "name": "CHITATO OKONOMIYAKI 85", "amount": 6 },
+      { "no": 89686598056, "name": "CHITATO SAPI PG 75", "amount": 10 },
+      { "no": 89686598957, "name": "CHITATO KEJU SUPREME 75", "amount": 7 }
+    ]
+  },
+  {
+    "transactionDatetime": 13,
+    "day": 5,
+    "detail": [
+      { "no": 89686598926, "name": "CHITATO KEJU SUPREME 15", "amount": 7 },
+      { "no": 89686598766, "name": "CHITATO SAPI PANGGANG 168", "amount": 4 },
+      { "no": 89686598957, "name": "CHITATO KEJU SUPREME 75", "amount": 2 },
+      { "no": 89686600025, "name": "CHEETOS AYAM BAKAR 15", "amount": 1 },
+      { "no": 89686600247, "name": "CHEETOS JAGUNG BAKAR 40", "amount": 4 }
+    ]
+  },
+  {
+    "transactionDatetime": 14,
+    "day": 5,
+    "detail": [
+      { "no": 89686598018, "name": "CHITATO SAPI PG 19", "amount": 4 },
+      { "no": 89686598926, "name": "CHITATO KEJU SUPREME 15", "amount": 7 },
+      { "no": 89686598766, "name": "CHITATO SAPI PANGGANG 168", "amount": 2 },
+      { "no": 89686600025, "name": "CHEETOS AYAM BAKAR 15", "amount": 10 },
+      { "no": 89686600247, "name": "CHEETOS JAGUNG BAKAR 40", "amount": 3 }
+    ]
+  },
+  {
+    "transactionDatetime": 15,
+    "day": 5,
+    "detail": [
+      { "no": 89686598926, "name": "CHITATO KEJU SUPREME 15", "amount": 9 },
+      { "no": 89686598476, "name": "CHITATO AYAM BUMBU 75", "amount": 9 },
+      { "no": 89686598728, "name": "CHITATO SAPI PANGGANG 15", "amount": 10 },
+      { "no": 89686598650, "name": "CHITATO OKONOMIYAKI 85", "amount": 9 },
+      { "no": 89686598599, "name": "CHITATO SAPI BUMBU B 75", "amount": 5 }
+    ]
+  },
+  {
+    "transactionDatetime": 16,
+    "day": 5,
+    "detail": [
+      { "no": 89686598322, "name": "CHITATO ORIGINAL FLAVOUR 35 GR", "amount": 5 },
+      { "no": 89686598025, "name": "CHITATO SAPI PG 40", "amount": 3 },
+      { "no": 89686598056, "name": "CHITATO SAPI PG 75", "amount": 6 },
+      { "no": 89686596885, "name": "LAYS AYAM PAPRIKA 65", "amount": 1 },
+      { "no": 89686598957, "name": "CHITATO KEJU SUPREME 75", "amount": 10 }
+    ]
+  },
+  {
+    "transactionDatetime": 17,
+    "day": 5,
+    "detail": [
+      { "no": 89686600247, "name": "CHEETOS JAGUNG BAKAR 40", "amount": 3 },
+      { "no": 89686599046, "name": "CHITATO FOODIE SEAWEED 55", "amount": 6 },
+      { "no": 89686598575, "name": "CHITATO SAPI BAKAR 19", "amount": 9 },
+      { "no": 89686598353, "name": "CHITATO ASLI 75", "amount": 4 },
+      { "no": 89686598650, "name": "CHITATO OKONOMIYAKI 85", "amount": 4 }
+    ]
+  },
+  {
+    "transactionDatetime": 18,
+    "day": 5,
+    "detail": [
+      { "no": 89686598056, "name": "CHITATO SAPI PG 75", "amount": 2 },
+      { "no": 89686599046, "name": "CHITATO FOODIE SEAWEED 55", "amount": 4 },
+      { "no": 89686600346, "name": "CHEETOS KEJU AMERIKA 40", "amount": 1 },
+      { "no": 89686596878, "name": "LAYS AYAM PG PAPRIKA 40", "amount": 9 },
+      { "no": 89686598018, "name": "CHITATO SAPI PG 19", "amount": 5 }
+    ]
+  },
+  {
+    "transactionDatetime": 19,
+    "day": 5,
+    "detail": [
+      { "no": 89686600223, "name": "CHEETOS JAGUNG BAKAR 18", "amount": 4 },
+      { "no": 89686596878, "name": "LAYS AYAM PG PAPRIKA 40", "amount": 1 },
+      { "no": 89686598582, "name": "CHITATO SAPI BUMBU B 40", "amount": 4 },
+      { "no": 89686600810, "name": "CHEETOS NET SEAWEED 12", "amount": 7 },
+      { "no": 89686598162, "name": "CHITATO AYAM BBQ 19", "amount": 7 }
+    ]
+  },
+  {
+    "transactionDatetime": 20,
+    "day": 5,
+    "detail": [
+      { "no": 89686598421, "name": "CHITATO AYAM BUMBU 40", "amount": 7 },
+      { "no": 89686598476, "name": "CHITATO AYAM BUMBU 75", "amount": 8 },
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 4 },
+      { "no": 89686600001, "name": "CHHETOS SHOTS JAGUNG BAKAR 15", "amount": 7 },
+      { "no": 89686598957, "name": "CHITATO KEJU SUPREME 75", "amount": 10 }
+    ]
+  },
+  {
+    "transactionDatetime": 21,
+    "day": 5,
+    "detail": [
+      { "no": 89686596885, "name": "LAYS AYAM PAPRIKA 65", "amount": 2 },
+      { "no": 89686600513, "name": "CHEETOS NET BBQ 12", "amount": 10 },
+      { "no": 89686598353, "name": "CHITATO ASLI 75", "amount": 9 },
+      { "no": 89686596878, "name": "LAYS AYAM PG PAPRIKA 40", "amount": 9 },
+      { "no": 89686598575, "name": "CHITATO SAPI BAKAR 19", "amount": 3 }
+    ]
+  },
+  {
+    "transactionDatetime": 22,
+    "day": 5,
+    "detail": [
+      { "no": 89686598650, "name": "CHITATO OKONOMIYAKI 85", "amount": 1 },
+      { "no": 89686600513, "name": "CHEETOS NET BBQ 12", "amount": 9 },
+      { "no": 89686598728, "name": "CHITATO SAPI PANGGANG 15", "amount": 3 },
+      { "no": 89686596885, "name": "LAYS AYAM PAPRIKA 65", "amount": 1 },
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 2 }
+    ]
+  },
+  {
+    "transactionDatetime": 23,
+    "day": 5,
+    "detail": [
+      { "no": 89686598575, "name": "CHITATO SAPI BAKAR 19", "amount": 9 },
+      { "no": 89686600810, "name": "CHEETOS NET SEAWEED 12", "amount": 9 },
+      { "no": 89686598018, "name": "CHITATO SAPI PG 19", "amount": 3 },
+      { "no": 89686598926, "name": "CHITATO KEJU SUPREME 15", "amount": 9 },
+      { "no": 89686598414, "name": "CHITATO AYAM BUMBU 19", "amount": 4 }
+    ]
+  },
+  {
+    "transactionDatetime": 24,
+    "day": 5,
+    "detail": [
+      { "no": 89686600001, "name": "CHHETOS SHOTS JAGUNG BAKAR 15", "amount": 2 },
+      { "no": 89686600223, "name": "CHEETOS JAGUNG BAKAR 18", "amount": 6 },
+      { "no": 89686598728, "name": "CHITATO SAPI PANGGANG 15", "amount": 2 },
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 5 },
+      { "no": 89686598599, "name": "CHITATO SAPI BUMBU B 75", "amount": 5 }
+    ]
+  },
+  {
+    "transactionDatetime": 25,
+    "day": 5,
+    "detail": [
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 10 },
+      { "no": 89686600223, "name": "CHEETOS JAGUNG BAKAR 18", "amount": 5 },
+      { "no": 89686598018, "name": "CHITATO SAPI PG 19", "amount": 5 },
+      { "no": 89686600247, "name": "CHEETOS JAGUNG BAKAR 40", "amount": 3 },
+      { "no": 89686598926, "name": "CHITATO KEJU SUPREME 15", "amount": 10 }
+    ]
+  },
+  {
+    "transactionDatetime": 26,
+    "day": 5,
+    "detail": [
+      { "no": 89686598056, "name": "CHITATO SAPI PG 75", "amount": 9 },
+      { "no": 89686598957, "name": "CHITATO KEJU SUPREME 75", "amount": 6 },
+      { "no": 89686598926, "name": "CHITATO KEJU SUPREME 15", "amount": 6 },
+      { "no": 89686600346, "name": "CHEETOS KEJU AMERIKA 40", "amount": 6 },
+      { "no": 89686600513, "name": "CHEETOS NET BBQ 12", "amount": 8 }
+    ]
+  },
+  {
+    "transactionDatetime": 27,
+    "day": 5,
+    "detail": [
+      { "no": 89686600001, "name": "CHHETOS SHOTS JAGUNG BAKAR 15", "amount": 6 },
+      { "no": 89686598766, "name": "CHITATO SAPI PANGGANG 168", "amount": 5 },
+      { "no": 89686600810, "name": "CHEETOS NET SEAWEED 12", "amount": 10 },
+      { "no": 89686598957, "name": "CHITATO KEJU SUPREME 75", "amount": 10 },
+      { "no": 89686596878, "name": "LAYS AYAM PG PAPRIKA 40", "amount": 5 }
+    ]
+  },
+  {
+    "transactionDatetime": 28,
+    "day": 5,
+    "detail": [
+      { "no": 89686596878, "name": "LAYS AYAM PG PAPRIKA 40", "amount": 7 },
+      { "no": 89686598025, "name": "CHITATO SAPI PG 40", "amount": 7 },
+      { "no": 89686598414, "name": "CHITATO AYAM BUMBU 19", "amount": 9 },
+      { "no": 89686600513, "name": "CHEETOS NET BBQ 12", "amount": 10 },
+      { "no": 89686600810, "name": "CHEETOS NET SEAWEED 12", "amount": 3 }
+    ]
+  },
+  {
+    "transactionDatetime": 29,
+    "day": 5,
+    "detail": [
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 8 },
+      { "no": 89686598025, "name": "CHITATO SAPI PG 40", "amount": 4 },
+      { "no": 89686598476, "name": "CHITATO AYAM BUMBU 75", "amount": 3 },
+      { "no": 89686598650, "name": "CHITATO OKONOMIYAKI 85", "amount": 3 },
+      { "no": 89686598957, "name": "CHITATO KEJU SUPREME 75", "amount": 1 }
+    ]
+  },
+  {
+    "transactionDatetime": 30,
+    "day": 5,
+    "detail": [
+      { "no": 89686596885, "name": "LAYS AYAM PAPRIKA 65", "amount": 5 },
+      { "no": 89686599046, "name": "CHITATO FOODIE SEAWEED 55", "amount": 3 },
+      { "no": 89686600223, "name": "CHEETOS JAGUNG BAKAR 18", "amount": 10 },
+      { "no": 89686598926, "name": "CHITATO KEJU SUPREME 15", "amount": 2 },
+      { "no": 89686598582, "name": "CHITATO SAPI BUMBU B 40", "amount": 10 }
+    ]
+  },
+  {
+    "transactionDatetime": 1,
+    "day": 6,
+    "detail": [
+      { "no": 89686600247, "name": "CHEETOS JAGUNG BAKAR 40", "amount": 6 },
+      { "no": 89686596878, "name": "LAYS AYAM PG PAPRIKA 40", "amount": 3 },
+      { "no": 89686598582, "name": "CHITATO SAPI BUMBU B 40", "amount": 3 },
+      { "no": 89686598421, "name": "CHITATO AYAM BUMBU 40", "amount": 9 },
+      { "no": 89686598179, "name": "CHITATO AYAM BBQ 40", "amount": 6 }
+    ]
+  },
+  {
+    "transactionDatetime": 2,
+    "day": 6,
+    "detail": [
+      { "no": 89686598582, "name": "CHITATO SAPI BUMBU B 40", "amount": 8 },
+      { "no": 89686600247, "name": "CHEETOS JAGUNG BAKAR 40", "amount": 2 },
+      { "no": 89686598179, "name": "CHITATO AYAM BBQ 40", "amount": 7 },
+      { "no": 89686600513, "name": "CHEETOS NET BBQ 12", "amount": 8 },
+      { "no": 89686598599, "name": "CHITATO SAPI BUMBU B 75", "amount": 5 }
+    ]
+  },
+  {
+    "transactionDatetime": 3,
+    "day": 6,
+    "detail": [
+      { "no": 89686598322, "name": "CHITATO ORIGINAL FLAVOUR 35 GR", "amount": 10 },
+      { "no": 89686598476, "name": "CHITATO AYAM BUMBU 75", "amount": 8 },
+      { "no": 89686600513, "name": "CHEETOS NET BBQ 12", "amount": 3 },
+      { "no": 89686598353, "name": "CHITATO ASLI 75", "amount": 2 },
+      { "no": 89686598766, "name": "CHITATO SAPI PANGGANG 168", "amount": 2 }
+    ]
+  },
+  {
+    "transactionDatetime": 4,
+    "day": 6,
+    "detail": [
+      { "no": 89686598582, "name": "CHITATO SAPI BUMBU B 40", "amount": 3 },
+      { "no": 89686598018, "name": "CHITATO SAPI PG 19", "amount": 7 },
+      { "no": 89686598650, "name": "CHITATO OKONOMIYAKI 85", "amount": 8 },
+      { "no": 89686598025, "name": "CHITATO SAPI PG 40", "amount": 9 },
+      { "no": 89686600025, "name": "CHEETOS AYAM BAKAR 15", "amount": 7 }
+    ]
+  },
+  {
+    "transactionDatetime": 5,
+    "day": 6,
+    "detail": [
+      { "no": 89686598025, "name": "CHITATO SAPI PG 40", "amount": 8 },
+      { "no": 89686598766, "name": "CHITATO SAPI PANGGANG 168", "amount": 2 },
+      { "no": 89686598599, "name": "CHITATO SAPI BUMBU B 75", "amount": 1 },
+      { "no": 89686600810, "name": "CHEETOS NET SEAWEED 12", "amount": 1 },
+      { "no": 89686598650, "name": "CHITATO OKONOMIYAKI 85", "amount": 7 }
+    ]
+  },
+  {
+    "transactionDatetime": 6,
+    "day": 6,
+    "detail": [
+      { "no": 89686599046, "name": "CHITATO FOODIE SEAWEED 55", "amount": 8 },
+      { "no": 89686598414, "name": "CHITATO AYAM BUMBU 19", "amount": 9 },
+      { "no": 89686598957, "name": "CHITATO KEJU SUPREME 75", "amount": 1 },
+      { "no": 89686598575, "name": "CHITATO SAPI BAKAR 19", "amount": 10 },
+      { "no": 89686598728, "name": "CHITATO SAPI PANGGANG 15", "amount": 2 }
+    ]
+  },
+  {
+    "transactionDatetime": 7,
+    "day": 6,
+    "detail": [
+      { "no": 89686598728, "name": "CHITATO SAPI PANGGANG 15", "amount": 5 },
+      { "no": 89686600223, "name": "CHEETOS JAGUNG BAKAR 18", "amount": 4 },
+      { "no": 89686598414, "name": "CHITATO AYAM BUMBU 19", "amount": 10 },
+      { "no": 89686598582, "name": "CHITATO SAPI BUMBU B 40", "amount": 8 },
+      { "no": 89686598766, "name": "CHITATO SAPI PANGGANG 168", "amount": 6 }
+    ]
+  },
+  {
+    "transactionDatetime": 8,
+    "day": 6,
+    "detail": [
+      { "no": 89686598476, "name": "CHITATO AYAM BUMBU 75", "amount": 6 },
+      { "no": 89686600025, "name": "CHEETOS AYAM BAKAR 15", "amount": 2 },
+      { "no": 89686598766, "name": "CHITATO SAPI PANGGANG 168", "amount": 3 },
+      { "no": 89686598025, "name": "CHITATO SAPI PG 40", "amount": 3 },
+      { "no": 89686596878, "name": "LAYS AYAM PG PAPRIKA 40", "amount": 10 }
+    ]
+  },
+  {
+    "transactionDatetime": 9,
+    "day": 6,
+    "detail": [
+      { "no": 89686600810, "name": "CHEETOS NET SEAWEED 12", "amount": 1 },
+      { "no": 89686598162, "name": "CHITATO AYAM BBQ 19", "amount": 7 },
+      { "no": 89686598018, "name": "CHITATO SAPI PG 19", "amount": 8 },
+      { "no": 89686599046, "name": "CHITATO FOODIE SEAWEED 55", "amount": 8 },
+      { "no": 89686598582, "name": "CHITATO SAPI BUMBU B 40", "amount": 3 }
+    ]
+  },
+  {
+    "transactionDatetime": 10,
+    "day": 6,
+    "detail": [
+      { "no": 89686600223, "name": "CHEETOS JAGUNG BAKAR 18", "amount": 2 },
+      { "no": 89686598650, "name": "CHITATO OKONOMIYAKI 85", "amount": 6 },
+      { "no": 89686600025, "name": "CHEETOS AYAM BAKAR 15", "amount": 8 },
+      { "no": 89686598353, "name": "CHITATO ASLI 75", "amount": 8 },
+      { "no": 89686598476, "name": "CHITATO AYAM BUMBU 75", "amount": 10 }
+    ]
+  },
+  {
+    "transactionDatetime": 11,
+    "day": 6,
+    "detail": [
+      { "no": 89686598025, "name": "CHITATO SAPI PG 40", "amount": 7 },
+      { "no": 89686598957, "name": "CHITATO KEJU SUPREME 75", "amount": 6 },
+      { "no": 89686598728, "name": "CHITATO SAPI PANGGANG 15", "amount": 7 },
+      { "no": 89686598162, "name": "CHITATO AYAM BBQ 19", "amount": 6 },
+      { "no": 89686598476, "name": "CHITATO AYAM BUMBU 75", "amount": 9 }
+    ]
+  },
+  {
+    "transactionDatetime": 12,
+    "day": 6,
+    "detail": [
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 10 },
+      { "no": 89686598179, "name": "CHITATO AYAM BBQ 40", "amount": 3 },
+      { "no": 89686598414, "name": "CHITATO AYAM BUMBU 19", "amount": 2 },
+      { "no": 89686599046, "name": "CHITATO FOODIE SEAWEED 55", "amount": 5 },
+      { "no": 89686598728, "name": "CHITATO SAPI PANGGANG 15", "amount": 8 }
+    ]
+  },
+  {
+    "transactionDatetime": 13,
+    "day": 6,
+    "detail": [
+      { "no": 89686598056, "name": "CHITATO SAPI PG 75", "amount": 10 },
+      { "no": 89686599046, "name": "CHITATO FOODIE SEAWEED 55", "amount": 1 },
+      { "no": 89686598575, "name": "CHITATO SAPI BAKAR 19", "amount": 8 },
+      { "no": 89686600001, "name": "CHHETOS SHOTS JAGUNG BAKAR 15", "amount": 6 },
+      { "no": 89686598322, "name": "CHITATO ORIGINAL FLAVOUR 35 GR", "amount": 5 }
+    ]
+  },
+  {
+    "transactionDatetime": 14,
+    "day": 6,
+    "detail": [
+      { "no": 89686598957, "name": "CHITATO KEJU SUPREME 75", "amount": 9 },
+      { "no": 89686598322, "name": "CHITATO ORIGINAL FLAVOUR 35 GR", "amount": 4 },
+      { "no": 89686600223, "name": "CHEETOS JAGUNG BAKAR 18", "amount": 10 },
+      { "no": 89686596878, "name": "LAYS AYAM PG PAPRIKA 40", "amount": 2 },
+      { "no": 89686600247, "name": "CHEETOS JAGUNG BAKAR 40", "amount": 8 }
+    ]
+  },
+  {
+    "transactionDatetime": 15,
+    "day": 6,
+    "detail": [
+      { "no": 89686598582, "name": "CHITATO SAPI BUMBU B 40", "amount": 4 },
+      { "no": 89686598650, "name": "CHITATO OKONOMIYAKI 85", "amount": 9 },
+      { "no": 89686598476, "name": "CHITATO AYAM BUMBU 75", "amount": 7 },
+      { "no": 89686600223, "name": "CHEETOS JAGUNG BAKAR 18", "amount": 4 },
+      { "no": 89686598025, "name": "CHITATO SAPI PG 40", "amount": 3 }
+    ]
+  },
+  {
+    "transactionDatetime": 16,
+    "day": 6,
+    "detail": [
+      { "no": 89686600810, "name": "CHEETOS NET SEAWEED 12", "amount": 7 },
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 9 },
+      { "no": 89686598421, "name": "CHITATO AYAM BUMBU 40", "amount": 3 },
+      { "no": 89686598766, "name": "CHITATO SAPI PANGGANG 168", "amount": 6 },
+      { "no": 89686596885, "name": "LAYS AYAM PAPRIKA 65", "amount": 3 }
+    ]
+  },
+  {
+    "transactionDatetime": 17,
+    "day": 6,
+    "detail": [
+      { "no": 89686598025, "name": "CHITATO SAPI PG 40", "amount": 2 },
+      { "no": 89686596885, "name": "LAYS AYAM PAPRIKA 65", "amount": 8 },
+      { "no": 89686598322, "name": "CHITATO ORIGINAL FLAVOUR 35 GR", "amount": 6 },
+      { "no": 89686598018, "name": "CHITATO SAPI PG 19", "amount": 5 },
+      { "no": 89686598599, "name": "CHITATO SAPI BUMBU B 75", "amount": 6 }
+    ]
+  },
+  {
+    "transactionDatetime": 18,
+    "day": 6,
+    "detail": [
+      { "no": 89686598322, "name": "CHITATO ORIGINAL FLAVOUR 35 GR", "amount": 10 },
+      { "no": 89686600810, "name": "CHEETOS NET SEAWEED 12", "amount": 1 },
+      { "no": 89686600247, "name": "CHEETOS JAGUNG BAKAR 40", "amount": 3 },
+      { "no": 89686600001, "name": "CHHETOS SHOTS JAGUNG BAKAR 15", "amount": 7 },
+      { "no": 89686598650, "name": "CHITATO OKONOMIYAKI 85", "amount": 2 }
+    ]
+  },
+  {
+    "transactionDatetime": 19,
+    "day": 6,
+    "detail": [
+      { "no": 89686599046, "name": "CHITATO FOODIE SEAWEED 55", "amount": 8 },
+      { "no": 89686598018, "name": "CHITATO SAPI PG 19", "amount": 8 },
+      { "no": 89686600513, "name": "CHEETOS NET BBQ 12", "amount": 2 },
+      { "no": 89686598025, "name": "CHITATO SAPI PG 40", "amount": 6 },
+      { "no": 89686598056, "name": "CHITATO SAPI PG 75", "amount": 2 }
+    ]
+  },
+  {
+    "transactionDatetime": 20,
+    "day": 6,
+    "detail": [
+      { "no": 89686598421, "name": "CHITATO AYAM BUMBU 40", "amount": 5 },
+      { "no": 89686600001, "name": "CHHETOS SHOTS JAGUNG BAKAR 15", "amount": 4 },
+      { "no": 89686598162, "name": "CHITATO AYAM BBQ 19", "amount": 5 },
+      { "no": 89686598575, "name": "CHITATO SAPI BAKAR 19", "amount": 3 },
+      { "no": 89686598476, "name": "CHITATO AYAM BUMBU 75", "amount": 3 }
+    ]
+  },
+  {
+    "transactionDatetime": 21,
+    "day": 6,
+    "detail": [
+      { "no": 89686598926, "name": "CHITATO KEJU SUPREME 15", "amount": 9 },
+      { "no": 89686598728, "name": "CHITATO SAPI PANGGANG 15", "amount": 9 },
+      { "no": 89686598957, "name": "CHITATO KEJU SUPREME 75", "amount": 6 },
+      { "no": 89686600247, "name": "CHEETOS JAGUNG BAKAR 40", "amount": 8 },
+      { "no": 89686598766, "name": "CHITATO SAPI PANGGANG 168", "amount": 10 }
+    ]
+  },
+  {
+    "transactionDatetime": 22,
+    "day": 6,
+    "detail": [
+      { "no": 89686598018, "name": "CHITATO SAPI PG 19", "amount": 7 },
+      { "no": 89686598476, "name": "CHITATO AYAM BUMBU 75", "amount": 4 },
+      { "no": 89686598353, "name": "CHITATO ASLI 75", "amount": 8 },
+      { "no": 89686596878, "name": "LAYS AYAM PG PAPRIKA 40", "amount": 8 },
+      { "no": 89686600247, "name": "CHEETOS JAGUNG BAKAR 40", "amount": 8 }
+    ]
+  },
+  {
+    "transactionDatetime": 23,
+    "day": 6,
+    "detail": [
+      { "no": 89686600001, "name": "CHHETOS SHOTS JAGUNG BAKAR 15", "amount": 7 },
+      { "no": 89686598575, "name": "CHITATO SAPI BAKAR 19", "amount": 7 },
+      { "no": 89686600247, "name": "CHEETOS JAGUNG BAKAR 40", "amount": 4 },
+      { "no": 89686600025, "name": "CHEETOS AYAM BAKAR 15", "amount": 9 },
+      { "no": 89686598582, "name": "CHITATO SAPI BUMBU B 40", "amount": 1 }
+    ]
+  },
+  {
+    "transactionDatetime": 24,
+    "day": 6,
+    "detail": [
+      { "no": 89686598179, "name": "CHITATO AYAM BBQ 40", "amount": 2 },
+      { "no": 89686598025, "name": "CHITATO SAPI PG 40", "amount": 4 },
+      { "no": 89686598476, "name": "CHITATO AYAM BUMBU 75", "amount": 7 },
+      { "no": 89686598018, "name": "CHITATO SAPI PG 19", "amount": 8 },
+      { "no": 89686600346, "name": "CHEETOS KEJU AMERIKA 40", "amount": 8 }
+    ]
+  },
+  {
+    "transactionDatetime": 25,
+    "day": 6,
+    "detail": [
+      { "no": 89686598322, "name": "CHITATO ORIGINAL FLAVOUR 35 GR", "amount": 4 },
+      { "no": 89686598056, "name": "CHITATO SAPI PG 75", "amount": 10 },
+      { "no": 89686598353, "name": "CHITATO ASLI 75", "amount": 5 },
+      { "no": 89686600346, "name": "CHEETOS KEJU AMERIKA 40", "amount": 4 },
+      { "no": 89686598728, "name": "CHITATO SAPI PANGGANG 15", "amount": 4 }
+    ]
+  },
+  {
+    "transactionDatetime": 26,
+    "day": 6,
+    "detail": [
+      { "no": 89686598575, "name": "CHITATO SAPI BAKAR 19", "amount": 10 },
+      { "no": 89686600025, "name": "CHEETOS AYAM BAKAR 15", "amount": 1 },
+      { "no": 89686598599, "name": "CHITATO SAPI BUMBU B 75", "amount": 7 },
+      { "no": 89686600223, "name": "CHEETOS JAGUNG BAKAR 18", "amount": 4 },
+      { "no": 89686596885, "name": "LAYS AYAM PAPRIKA 65", "amount": 6 }
+    ]
+  },
+  {
+    "transactionDatetime": 27,
+    "day": 6,
+    "detail": [
+      { "no": 89686598476, "name": "CHITATO AYAM BUMBU 75", "amount": 9 },
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 10 },
+      { "no": 89686600247, "name": "CHEETOS JAGUNG BAKAR 40", "amount": 6 },
+      { "no": 89686598179, "name": "CHITATO AYAM BBQ 40", "amount": 1 },
+      { "no": 89686598414, "name": "CHITATO AYAM BUMBU 19", "amount": 3 }
+    ]
+  },
+  {
+    "transactionDatetime": 28,
+    "day": 6,
+    "detail": [
+      { "no": 89686598179, "name": "CHITATO AYAM BBQ 40", "amount": 10 },
+      { "no": 89686598056, "name": "CHITATO SAPI PG 75", "amount": 5 },
+      { "no": 89686600513, "name": "CHEETOS NET BBQ 12", "amount": 1 },
+      { "no": 89686598018, "name": "CHITATO SAPI PG 19", "amount": 10 },
+      { "no": 89686598957, "name": "CHITATO KEJU SUPREME 75", "amount": 6 }
+    ]
+  },
+  {
+    "transactionDatetime": 29,
+    "day": 6,
+    "detail": [
+      { "no": 89686598476, "name": "CHITATO AYAM BUMBU 75", "amount": 5 },
+      { "no": 89686596885, "name": "LAYS AYAM PAPRIKA 65", "amount": 3 },
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 5 },
+      { "no": 89686600001, "name": "CHHETOS SHOTS JAGUNG BAKAR 15", "amount": 5 },
+      { "no": 89686600223, "name": "CHEETOS JAGUNG BAKAR 18", "amount": 8 }
+    ]
+  },
+  {
+    "transactionDatetime": 30,
+    "day": 6,
+    "detail": [
+      { "no": 89686600810, "name": "CHEETOS NET SEAWEED 12", "amount": 3 },
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 10 },
+      { "no": 89686598582, "name": "CHITATO SAPI BUMBU B 40", "amount": 4 },
+      { "no": 89686600223, "name": "CHEETOS JAGUNG BAKAR 18", "amount": 10 },
+      { "no": 89686598650, "name": "CHITATO OKONOMIYAKI 85", "amount": 2 }
+    ]
+  },
+  {
+    "transactionDatetime": 1,
+    "day": 7,
+    "detail": [
+      { "no": 89686600346, "name": "CHEETOS KEJU AMERIKA 40", "amount": 5 },
+      { "no": 89686598056, "name": "CHITATO SAPI PG 75", "amount": 10 },
+      { "no": 89686598650, "name": "CHITATO OKONOMIYAKI 85", "amount": 10 },
+      { "no": 89686600513, "name": "CHEETOS NET BBQ 12", "amount": 3 },
+      { "no": 89686599046, "name": "CHITATO FOODIE SEAWEED 55", "amount": 9 }
+    ]
+  },
+  {
+    "transactionDatetime": 2,
+    "day": 7,
+    "detail": [
+      { "no": 89686596885, "name": "LAYS AYAM PAPRIKA 65", "amount": 10 },
+      { "no": 89686600001, "name": "CHHETOS SHOTS JAGUNG BAKAR 15", "amount": 5 },
+      { "no": 89686598599, "name": "CHITATO SAPI BUMBU B 75", "amount": 2 },
+      { "no": 89686598322, "name": "CHITATO ORIGINAL FLAVOUR 35 GR", "amount": 7 },
+      { "no": 89686598179, "name": "CHITATO AYAM BBQ 40", "amount": 4 }
+    ]
+  },
+  {
+    "transactionDatetime": 3,
+    "day": 7,
+    "detail": [
+      { "no": 89686598728, "name": "CHITATO SAPI PANGGANG 15", "amount": 8 },
+      { "no": 89686600513, "name": "CHEETOS NET BBQ 12", "amount": 1 },
+      { "no": 89686600001, "name": "CHHETOS SHOTS JAGUNG BAKAR 15", "amount": 7 },
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 2 },
+      { "no": 89686598650, "name": "CHITATO OKONOMIYAKI 85", "amount": 8 }
+    ]
+  },
+  {
+    "transactionDatetime": 4,
+    "day": 7,
+    "detail": [
+      { "no": 89686598926, "name": "CHITATO KEJU SUPREME 15", "amount": 1 },
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 8 },
+      { "no": 89686600223, "name": "CHEETOS JAGUNG BAKAR 18", "amount": 7 },
+      { "no": 89686600025, "name": "CHEETOS AYAM BAKAR 15", "amount": 8 },
+      { "no": 89686598476, "name": "CHITATO AYAM BUMBU 75", "amount": 2 }
+    ]
+  },
+  {
+    "transactionDatetime": 5,
+    "day": 7,
+    "detail": [
+      { "no": 89686598926, "name": "CHITATO KEJU SUPREME 15", "amount": 7 },
+      { "no": 89686598957, "name": "CHITATO KEJU SUPREME 75", "amount": 1 },
+      { "no": 89686596885, "name": "LAYS AYAM PAPRIKA 65", "amount": 9 },
+      { "no": 89686600223, "name": "CHEETOS JAGUNG BAKAR 18", "amount": 6 },
+      { "no": 89686600001, "name": "CHHETOS SHOTS JAGUNG BAKAR 15", "amount": 4 }
+    ]
+  },
+  {
+    "transactionDatetime": 6,
+    "day": 7,
+    "detail": [
+      { "no": 89686598766, "name": "CHITATO SAPI PANGGANG 168", "amount": 3 },
+      { "no": 89686600247, "name": "CHEETOS JAGUNG BAKAR 40", "amount": 6 },
+      { "no": 89686600001, "name": "CHHETOS SHOTS JAGUNG BAKAR 15", "amount": 9 },
+      { "no": 89686596885, "name": "LAYS AYAM PAPRIKA 65", "amount": 6 },
+      { "no": 89686600544, "name": "CHEETOS NET BBQ 40", "amount": 10 }
+    ]
+  },
+  {
+    "transactionDatetime": 7,
+    "day": 7,
+    "detail": [
+      { "no": 89686598766, "name": "CHITATO SAPI PANGGANG 168", "amount": 2 },
+      { "no": 89686598728, "name": "CHITATO SAPI PANGGANG 15", "amount": 6 },
+      { "no": 89686598322, "name": "CHITATO ORIGINAL FLAVOUR 35 GR", "amount": 10 },
+      { "no": 89686598414, "name": "CHITATO AYAM BUMBU 19", "amount": 7 },
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 10 }
+    ]
+  },
+  {
+    "transactionDatetime": 8,
+    "day": 7,
+    "detail": [
+      { "no": 89686598018, "name": "CHITATO SAPI PG 19", "amount": 8 },
+      { "no": 89686598025, "name": "CHITATO SAPI PG 40", "amount": 7 },
+      { "no": 89686598179, "name": "CHITATO AYAM BBQ 40", "amount": 4 },
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 3 },
+      { "no": 89686598766, "name": "CHITATO SAPI PANGGANG 168", "amount": 9 }
+    ]
+  },
+  {
+    "transactionDatetime": 9,
+    "day": 7,
+    "detail": [
+      { "no": 89686596878, "name": "LAYS AYAM PG PAPRIKA 40", "amount": 7 },
+      { "no": 89686598957, "name": "CHITATO KEJU SUPREME 75", "amount": 10 },
+      { "no": 89686600025, "name": "CHEETOS AYAM BAKAR 15", "amount": 5 },
+      { "no": 89686598056, "name": "CHITATO SAPI PG 75", "amount": 1 },
+      { "no": 89686598179, "name": "CHITATO AYAM BBQ 40", "amount": 10 }
+    ]
+  },
+  {
+    "transactionDatetime": 10,
+    "day": 7,
+    "detail": [
+      { "no": 89686600001, "name": "CHHETOS SHOTS JAGUNG BAKAR 15", "amount": 5 },
+      { "no": 89686598476, "name": "CHITATO AYAM BUMBU 75", "amount": 8 },
+      { "no": 89686598926, "name": "CHITATO KEJU SUPREME 15", "amount": 5 },
+      { "no": 89686598575, "name": "CHITATO SAPI BAKAR 19", "amount": 3 },
+      { "no": 89686598728, "name": "CHITATO SAPI PANGGANG 15", "amount": 7 }
+    ]
+  },
+  {
+    "transactionDatetime": 11,
+    "day": 7,
+    "detail": [
+      { "no": 89686598162, "name": "CHITATO AYAM BBQ 19", "amount": 6 },
+      { "no": 89686600810, "name": "CHEETOS NET SEAWEED 12", "amount": 2 },
+      { "no": 89686598353, "name": "CHITATO ASLI 75", "amount": 3 },
+      { "no": 89686600247, "name": "CHEETOS JAGUNG BAKAR 40", "amount": 4 },
+      { "no": 89686598575, "name": "CHITATO SAPI BAKAR 19", "amount": 4 }
+    ]
+  },
+  {
+    "transactionDatetime": 12,
+    "day": 7,
+    "detail": [
+      { "no": 89686596878, "name": "LAYS AYAM PG PAPRIKA 40", "amount": 6 },
+      { "no": 89686598575, "name": "CHITATO SAPI BAKAR 19", "amount": 4 },
+      { "no": 89686598322, "name": "CHITATO ORIGINAL FLAVOUR 35 GR", "amount": 5 },
+      { "no": 89686600544, "name": "CHEETOS NET BBQ 40", "amount": 2 },
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 7 }
+    ]
+  },
+  {
+    "transactionDatetime": 13,
+    "day": 7,
+    "detail": [
+      { "no": 89686600247, "name": "CHEETOS JAGUNG BAKAR 40", "amount": 2 },
+      { "no": 89686598926, "name": "CHITATO KEJU SUPREME 15", "amount": 9 },
+      { "no": 89686598421, "name": "CHITATO AYAM BUMBU 40", "amount": 10 },
+      { "no": 89686598322, "name": "CHITATO ORIGINAL FLAVOUR 35 GR", "amount": 2 },
+      { "no": 89686596878, "name": "LAYS AYAM PG PAPRIKA 40", "amount": 3 }
+    ]
+  },
+  {
+    "transactionDatetime": 14,
+    "day": 7,
+    "detail": [
+      { "no": 89686600544, "name": "CHEETOS NET BBQ 40", "amount": 4 },
+      { "no": 89686598322, "name": "CHITATO ORIGINAL FLAVOUR 35 GR", "amount": 2 },
+      { "no": 89686598162, "name": "CHITATO AYAM BBQ 19", "amount": 4 },
+      { "no": 89686598179, "name": "CHITATO AYAM BBQ 40", "amount": 10 },
+      { "no": 89686596885, "name": "LAYS AYAM PAPRIKA 65", "amount": 3 }
+    ]
+  },
+  {
+    "transactionDatetime": 15,
+    "day": 7,
+    "detail": [
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 8 },
+      { "no": 89686598179, "name": "CHITATO AYAM BBQ 40", "amount": 7 },
+      { "no": 89686598025, "name": "CHITATO SAPI PG 40", "amount": 7 },
+      { "no": 89686600513, "name": "CHEETOS NET BBQ 12", "amount": 4 },
+      { "no": 89686598414, "name": "CHITATO AYAM BUMBU 19", "amount": 1 }
+    ]
+  },
+  {
+    "transactionDatetime": 16,
+    "day": 7,
+    "detail": [
+      { "no": 89686598476, "name": "CHITATO AYAM BUMBU 75", "amount": 9 },
+      { "no": 89686598162, "name": "CHITATO AYAM BBQ 19", "amount": 3 },
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 4 },
+      { "no": 89686600346, "name": "CHEETOS KEJU AMERIKA 40", "amount": 3 },
+      { "no": 89686598926, "name": "CHITATO KEJU SUPREME 15", "amount": 9 }
+    ]
+  },
+  {
+    "transactionDatetime": 17,
+    "day": 7,
+    "detail": [
+      { "no": 89686598056, "name": "CHITATO SAPI PG 75", "amount": 4 },
+      { "no": 89686600544, "name": "CHEETOS NET BBQ 40", "amount": 4 },
+      { "no": 89686598025, "name": "CHITATO SAPI PG 40", "amount": 5 },
+      { "no": 89686598926, "name": "CHITATO KEJU SUPREME 15", "amount": 8 },
+      { "no": 89686598957, "name": "CHITATO KEJU SUPREME 75", "amount": 3 }
+    ]
+  },
+  {
+    "transactionDatetime": 18,
+    "day": 7,
+    "detail": [
+      { "no": 89686600810, "name": "CHEETOS NET SEAWEED 12", "amount": 4 },
+      { "no": 89686598926, "name": "CHITATO KEJU SUPREME 15", "amount": 1 },
+      { "no": 89686598056, "name": "CHITATO SAPI PG 75", "amount": 6 },
+      { "no": 89686600223, "name": "CHEETOS JAGUNG BAKAR 18", "amount": 1 },
+      { "no": 89686598421, "name": "CHITATO AYAM BUMBU 40", "amount": 9 }
+    ]
+  },
+  {
+    "transactionDatetime": 19,
+    "day": 7,
+    "detail": [
+      { "no": 89686600513, "name": "CHEETOS NET BBQ 12", "amount": 10 },
+      { "no": 89686598728, "name": "CHITATO SAPI PANGGANG 15", "amount": 4 },
+      { "no": 89686598322, "name": "CHITATO ORIGINAL FLAVOUR 35 GR", "amount": 7 },
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 6 },
+      { "no": 89686600346, "name": "CHEETOS KEJU AMERIKA 40", "amount": 8 }
+    ]
+  },
+  {
+    "transactionDatetime": 20,
+    "day": 7,
+    "detail": [
+      { "no": 89686598957, "name": "CHITATO KEJU SUPREME 75", "amount": 3 },
+      { "no": 89686598582, "name": "CHITATO SAPI BUMBU B 40", "amount": 2 },
+      { "no": 89686598599, "name": "CHITATO SAPI BUMBU B 75", "amount": 2 },
+      { "no": 89686598162, "name": "CHITATO AYAM BBQ 19", "amount": 5 },
+      { "no": 89686599046, "name": "CHITATO FOODIE SEAWEED 55", "amount": 3 }
+    ]
+  },
+  {
+    "transactionDatetime": 21,
+    "day": 7,
+    "detail": [
+      { "no": 89686600513, "name": "CHEETOS NET BBQ 12", "amount": 4 },
+      { "no": 89686600810, "name": "CHEETOS NET SEAWEED 12", "amount": 7 },
+      { "no": 89686598025, "name": "CHITATO SAPI PG 40", "amount": 1 },
+      { "no": 89686598728, "name": "CHITATO SAPI PANGGANG 15", "amount": 9 },
+      { "no": 89686598414, "name": "CHITATO AYAM BUMBU 19", "amount": 3 }
+    ]
+  },
+  {
+    "transactionDatetime": 22,
+    "day": 7,
+    "detail": [
+      { "no": 89686598018, "name": "CHITATO SAPI PG 19", "amount": 7 },
+      { "no": 89686599046, "name": "CHITATO FOODIE SEAWEED 55", "amount": 5 },
+      { "no": 89686598575, "name": "CHITATO SAPI BAKAR 19", "amount": 7 },
+      { "no": 89686598179, "name": "CHITATO AYAM BBQ 40", "amount": 3 },
+      { "no": 89686598766, "name": "CHITATO SAPI PANGGANG 168", "amount": 9 }
+    ]
+  },
+  {
+    "transactionDatetime": 23,
+    "day": 7,
+    "detail": [
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 8 },
+      { "no": 89686600025, "name": "CHEETOS AYAM BAKAR 15", "amount": 3 },
+      { "no": 89686598599, "name": "CHITATO SAPI BUMBU B 75", "amount": 2 },
+      { "no": 89686598018, "name": "CHITATO SAPI PG 19", "amount": 7 },
+      { "no": 89686600247, "name": "CHEETOS JAGUNG BAKAR 40", "amount": 8 }
+    ]
+  },
+  {
+    "transactionDatetime": 24,
+    "day": 7,
+    "detail": [
+      { "no": 89686600223, "name": "CHEETOS JAGUNG BAKAR 18", "amount": 3 },
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 10 },
+      { "no": 89686598179, "name": "CHITATO AYAM BBQ 40", "amount": 5 },
+      { "no": 89686598957, "name": "CHITATO KEJU SUPREME 75", "amount": 8 },
+      { "no": 89686598056, "name": "CHITATO SAPI PG 75", "amount": 1 }
+    ]
+  },
+  {
+    "transactionDatetime": 25,
+    "day": 7,
+    "detail": [
+      { "no": 89686598650, "name": "CHITATO OKONOMIYAKI 85", "amount": 3 },
+      { "no": 89686600001, "name": "CHHETOS SHOTS JAGUNG BAKAR 15", "amount": 2 },
+      { "no": 89686598421, "name": "CHITATO AYAM BUMBU 40", "amount": 6 },
+      { "no": 89686598322, "name": "CHITATO ORIGINAL FLAVOUR 35 GR", "amount": 2 },
+      { "no": 89686598926, "name": "CHITATO KEJU SUPREME 15", "amount": 4 }
+    ]
+  },
+  {
+    "transactionDatetime": 26,
+    "day": 7,
+    "detail": [
+      { "no": 89686598018, "name": "CHITATO SAPI PG 19", "amount": 7 },
+      { "no": 89686600247, "name": "CHEETOS JAGUNG BAKAR 40", "amount": 2 },
+      { "no": 89686598650, "name": "CHITATO OKONOMIYAKI 85", "amount": 4 },
+      { "no": 89686598599, "name": "CHITATO SAPI BUMBU B 75", "amount": 6 },
+      { "no": 89686600513, "name": "CHEETOS NET BBQ 12", "amount": 7 }
+    ]
+  },
+  {
+    "transactionDatetime": 27,
+    "day": 7,
+    "detail": [
+      { "no": 89686600513, "name": "CHEETOS NET BBQ 12", "amount": 5 },
+      { "no": 89686598575, "name": "CHITATO SAPI BAKAR 19", "amount": 6 },
+      { "no": 89686598582, "name": "CHITATO SAPI BUMBU B 40", "amount": 5 },
+      { "no": 89686598650, "name": "CHITATO OKONOMIYAKI 85", "amount": 4 },
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 4 }
+    ]
+  },
+  {
+    "transactionDatetime": 28,
+    "day": 7,
+    "detail": [
+      { "no": 89686598186, "name": "CHITATO AYAM BBQ 75", "amount": 9 },
+      { "no": 89686600223, "name": "CHEETOS JAGUNG BAKAR 18", "amount": 1 },
+      { "no": 89686598056, "name": "CHITATO SAPI PG 75", "amount": 9 },
+      { "no": 89686598421, "name": "CHITATO AYAM BUMBU 40", "amount": 2 },
+      { "no": 89686600810, "name": "CHEETOS NET SEAWEED 12", "amount": 10 }
+    ]
+  },
+  {
+    "transactionDatetime": 29,
+    "day": 7,
+    "detail": [
+      { "no": 89686600247, "name": "CHEETOS JAGUNG BAKAR 40", "amount": 10 },
+      { "no": 89686598766, "name": "CHITATO SAPI PANGGANG 168", "amount": 2 },
+      { "no": 89686598353, "name": "CHITATO ASLI 75", "amount": 3 },
+      { "no": 89686598599, "name": "CHITATO SAPI BUMBU B 75", "amount": 3 },
+      { "no": 89686596885, "name": "LAYS AYAM PAPRIKA 65", "amount": 9 }
+    ]
+  },
+  {
+    "transactionDatetime": 30,
+    "day": 7,
+    "detail": [
+      { "no": 89686598582, "name": "CHITATO SAPI BUMBU B 40", "amount": 8 },
+      { "no": 89686598766, "name": "CHITATO SAPI PANGGANG 168", "amount": 5 },
+      { "no": 89686598599, "name": "CHITATO SAPI BUMBU B 75", "amount": 4 },
+      { "no": 89686598414, "name": "CHITATO AYAM BUMBU 19", "amount": 6 },
+      { "no": 89686598162, "name": "CHITATO AYAM BBQ 19", "amount": 3 }
+    ]
+  }
+]

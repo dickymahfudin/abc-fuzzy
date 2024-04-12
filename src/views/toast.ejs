@@ -1,0 +1,9 @@
+<% const toastSuccess = messages.success %> <% const toastError = messages.error %>
+<script>
+  $(document).ready(function () {
+    const toastSuccess = '<%- toastSuccess %>';
+    const toastError = '<%- toastError %>';
+    toastSuccess != '' && notification('success', toastSuccess);
+    toastError != '' && notification('error', toastError);
+  });
+</script>

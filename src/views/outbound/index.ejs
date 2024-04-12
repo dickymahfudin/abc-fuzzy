@@ -1,0 +1,31 @@
+<div class="card shadow mb-4">
+  <div class="card-header py-3">
+    <a
+      id="add"
+      href="/outbound/form"
+      class="modal-open btn btn-primary btn-round"
+      type="submit"
+      data-placement="bottom"
+      title="Tambah Data"
+    >
+      <i class="bx bxs-file-plus"></i> Tambah Data
+    </a>
+  </div>
+  <div class="card-body">
+    <div class="mt-3">
+      <table class="table table-striped display nowrap" style="width: 100%" id="dataTable" edit="true">
+        <thead>
+          <tr>
+            <th key="sku">No Barang</th>
+            <th key="name">Nama</th>
+            <th key="buyPrice" render="currency">Harga Beli Terakhir</th>
+            <th key="currentPrice" render="currency">Harga Jual</th>
+            <th key="stock">Stok Saat Ini</th>
+          </tr>
+        </thead>
+      </table>
+    </div>
+  </div>
+</div>
+
+<%- include('../toast'); %>

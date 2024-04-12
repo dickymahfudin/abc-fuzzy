@@ -1,0 +1,49 @@
+<!-- Menu -->
+<aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
+  <div class="app-brand demo">
+    <a href="/" class="app-brand-link">
+      <span class="app-brand-logo demo">
+        <img src="/img/logo.png" alt class="w-px-40 h-auto" />
+      </span>
+      <span class="app-brand-text demo menu-text fw-bolder ms-2">Barumas</span>
+    </a>
+
+    <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
+      <i class="bx bx-chevron-left bx-sm align-middle"></i>
+    </a>
+  </div>
+
+  <div class="menu-inner-shadow"></div>
+
+  <ul class="menu-inner py-1" id="menu"></ul>
+</aside>
+<!-- / Menu -->
+
+<script>
+  //handle menu
+  const me = $('ul#menu');
+  const menus = [
+    { title: 'Dashboard', href: '/', icon: 'tf-icons bx bx-home-circle' },
+    { title: 'Produk', href: '/product', icon: 'bx bxs-food-menu' },
+    { title: 'Penjualan', href: '/outbound', icon: 'bx bx-archive-in' },
+    { title: 'Pembelian', href: '/inbound', icon: 'bx bx-archive-out' },
+    { title: 'Rumus', href: '/calulutaion', icon: 'bx bx-math' },
+    { title: 'Setting', href: '/setting', icon: 'bx bx-cog' },
+  ];
+  if (me.length) {
+    for (const menu of menus) {
+      const pathname = window.location.pathname;
+      var currentUrl = pathname.split('/')[1];
+
+      const isActive = `/${currentUrl}` == `${menu.href}` ? 'active' : '';
+      me.append(`
+          <li class="menu-item ${isActive}" >
+            <a href="${menu.href}" class="menu-link">
+              <i class="menu-icon ${menu.icon}"></i>
+              <div data-i18n="Analytics">${menu.title}</div>
+            </a>
+          </li>
+      `);
+    }
+  }
+</script>
