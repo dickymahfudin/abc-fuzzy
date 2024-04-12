@@ -42,7 +42,7 @@ router.post('/:id', async (req, res) => {
   return res.render(`${path}/index`, { title });
 });
 
-router.get('/form', (req, res) => res.render(`${path}/form`, { title, action: `/${path}`, values: {} }));
+router.get('/form', (req, res) => res.render(`${path}/form`, { title, action: `/${path}`, value: {} }));
 
 router.get('/form/:id', async (req, res) => {
   const { id } = req.params;
@@ -51,7 +51,7 @@ router.get('/form/:id', async (req, res) => {
     req.flash('error', `Data Tidak ditemukkan`);
     return res.render(`${path}/index`, { title });
   }
-  return res.render(`${path}/form`, { title, action: `/${path}/${id}`, product });
+  return res.render(`${path}/form`, { title, action: `/${path}/${id}`, value: {} });
 });
 
 router.get('/table', async (req, res) => res.json(await generateTable({ req: req.query, model: ProductModel })));

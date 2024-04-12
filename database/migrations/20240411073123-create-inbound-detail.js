@@ -1,3 +1,5 @@
+const { generateInbound } = require('../../src/helpers/dataLaporan');
+
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up(queryInterface, Sequelize) {
@@ -14,6 +16,8 @@ module.exports = {
           model: 'inbound',
           key: 'id',
         },
+        onUpdate: 'cascade',
+        onDelete: 'cascade',
       },
       productId: {
         type: Sequelize.INTEGER,
@@ -21,12 +25,15 @@ module.exports = {
           model: 'product',
           key: 'id',
         },
+        onUpdate: 'cascade',
+        onDelete: 'cascade',
       },
       amount: {
         type: Sequelize.INTEGER,
       },
       soldAmount: {
         type: Sequelize.INTEGER,
+        defaultValue: 0,
       },
       buyPrice: {
         type: Sequelize.INTEGER,
@@ -42,6 +49,7 @@ module.exports = {
         defaultValue: Sequelize.fn('NOW'),
       },
     });
+    await generateInbound();
   },
   async down(queryInterface) {
     await queryInterface.dropTable('inboundDetail');

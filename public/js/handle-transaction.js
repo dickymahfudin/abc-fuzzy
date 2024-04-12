@@ -3,14 +3,6 @@ const tagProduct = $('#products');
 
 let transactionDate;
 let loading = false;
-
-type = type === 'Pembelian' ? 0 : 1;
-
-const configTrans = [
-  { priceType: 'buyPrice', priceCart: false, amountCart: false },
-  { priceType: 'currentPrice', priceCart: true, amountCart: true },
-][type];
-
 let filter = {
   totalPage: 0,
   currentPage: 1,
@@ -18,26 +10,10 @@ let filter = {
 };
 let dataProducts = [];
 let productCart = [];
-$(document).ready(function () {
-  inputDate.daterangepicker(
-    {
-      singleDatePicker: true,
-      showDropdowns: true,
-      timePicker: true,
-      autoUpdateInput: false,
-      locale: {
-        cancelLabel: 'Clear',
-        format: 'DD-MM-YYYY HH:mm',
-      },
-    },
-    function (start, end, label) {
-      transactionDate = moment(start).format('DD-MM-YYYY HH:mm');
-      inputDate.on('apply.daterangepicker', function (ev, picker) {
-        $(this).val(picker.startDate.format('DD-MM-YYYY HH:mm'));
-      });
-    },
-  );
-});
+const configTrans = [
+  { priceType: 'buyPrice', priceCart: false, amountCart: false },
+  { priceType: 'currentPrice', priceCart: true, amountCart: true },
+][type === 'Pembelian' ? 0 : 1];
 
 inputDate.on('cancel.daterangepicker', function (ev, picker) {
   $(this).val('');
@@ -176,33 +152,30 @@ const renderProductCart = () => {
   $('#productCart').append(cart);
   $('#total').text(`Total Harga ${rupiah(total)}`);
 
-  if (configTrans.amountCart) {
-    productCart.forEach((cartItem, i, array) => {
-      const input = $(`#amount-input-${cartItem.id}`);
-      input.attr('max', cart.baseStock);
-      input.on('input', function () {
-        let value = $(this).val() || 0;
-        let cart = array[i];
+  productCart.forEach((cartItem, i, array) => {
+    const input = $(`#amount-input-${cartItem.id}`);
+    input.attr('max', cart.baseStock);
+    input.on('input', function () {
+      let value = $(this).val() || 1;
+      let cart = array[i];
 
-        if (+value > cartItem.baseStock) {
-          value = cartItem.baseStock;
-          $(this).val(value);
-          alert('Jumlah melebihi stok yang tersedia!');
-        }
-        cart['amount'] = +value;
-        $(this).on('mouseup', function () {
-          return handleStock();
-        });
-
-        const debounceStock = debounce(handleStock, 1500);
-        return debounceStock();
+      if (+value > cartItem.baseStock && configTrans.amountCart) {
+        value = cartItem.baseStock;
+        $(this).val(value);
+        alert('Jumlah melebihi stok yang tersedia!');
+      }
+      cart['amount'] = +value;
+      $(this).on('mouseup', function () {
+        return handleStock();
       });
+
+      const debounceStock = debounce(handleStock, 1500);
+      return debounceStock();
     });
-  }
+  });
 };
 
 const handleStock = () => {
-  console.log(productCart);
   if (configTrans.amountCart) {
     productCart.forEach(cart => {
       const findProduct = dataProducts.find(e => e.id == cart.id);
@@ -223,34 +196,47 @@ $('#submitTransaction').click(function (e) {
   e.preventDefault();
   let error;
   if (!transactionDate) error = 'Tanggal Produksi Harus diisi';
-  else if (productCart.length < 1) error = 'Daftar Product Harus diPilih';
+  else if (productCart.length < 1) error = 'Daftar Produk Harus diPilih';
   if (error) notification('error', error);
   else {
-    $(this).addClass('disabled');
-    console.log({ transaction_datetime: transactionDate, detail: productCart });
+    $(this).prop('disabled', true);
+    const formDetail = value?.detail || [];
+    const detail = productCart.map(cart => {
+      const findDetail = formDetail.find(e => e?.product?.id == cart.id);
+      let res = {};
+      if (findDetail) res = { ...res, id: findDetail.id };
+      return {
+        ...res,
+        amount: cart.amount,
+        productId: cart.id,
+        [configTrans.priceType]: cart[[configTrans.priceType]],
+      };
+    });
+    const payload = {
+      id: value?.id || undefined,
+      transactionDate,
+      detail,
+    };
+    console.log(payload);
 
-    // $.ajax({
-    //   type: 'post',
-    //   url: action,
-    //   data: {
-    //     transaction_datetime: transactionDate,
-    //     detail: productCart,
-    //   },
-    //   dataType: 'json',
-    //   success: function (res) {
-    //     if (res.status == 'OK') {
-    //       notification('success', res.message);
-    //       setTimeout(function () {
-    //         window.location.replace('/inbound');
-    //       }, 2000);
-    //     } else {
-    //       notification('error', res.message);
-    //       setTimeout(function () {
-    //         window.location.replace('/inbound');
-    //       }, 2000);
-    //     }
-    //   },
-    // });
+    $.ajax({
+      type: 'post',
+      url: action,
+      data: payload,
+      dataType: 'json',
+      success: function (res) {
+        console.log(res);
+        if (res.success) {
+          notification('success', res.message);
+          setTimeout(function () {
+            window.location.href = `${window.location.origin}/${redirect}`;
+          }, 2000);
+        } else {
+          notification('error', res.message);
+          $('#submitTransaction').prop('disabled', false);
+        }
+      },
+    });
   }
 });
 
@@ -263,15 +249,25 @@ $('#search').on('input', function () {
 
 //handle loadmore
 tagProduct.scroll(function () {
-  if ($(this).scrollTop() + $(this).innerHeight() >= $(this)[0].scrollHeight) {
+  if ($(this).scrollTop() + $(this).innerHeight() >= $(this)[0].scrollHeight - 10) {
     if (filter?.totalPage !== filter?.currentPage && !loading)
       refetch({ ...filter, currentPage: (filter.currentPage += 1) });
   }
 });
 
-if (values?.transactionDate) {
-  inputDate.val(values?.inbound);
-  transactionDate = values?.inbound;
+if (value?.transactionDate) {
+  const date = moment(value.transactionDate).format('DD-MM-YYYY HH:mm');
+  const detail = value.detail.map(e => ({
+    id: e.product.id,
+    amount: e.amount,
+    name: e.product.name,
+    buyPrice: e.product[configTrans.priceType],
+  }));
+
+  inputDate.val(date);
+  transactionDate = date;
+  productCart = detail;
+  renderProductCart();
 } else {
   const currentDate = moment().add(1, 'day').format('DD-MM-YYYY HH:mm');
   inputDate.val(currentDate);
@@ -279,3 +275,24 @@ if (values?.transactionDate) {
 }
 
 fetch();
+
+$(document).ready(function () {
+  inputDate.daterangepicker(
+    {
+      singleDatePicker: true,
+      showDropdowns: true,
+      timePicker: true,
+      autoUpdateInput: false,
+      locale: {
+        cancelLabel: 'Clear',
+        format: 'DD-MM-YYYY HH:mm',
+      },
+    },
+    function (start, end, label) {
+      transactionDate = moment(start).format('DD-MM-YYYY HH:mm');
+      inputDate.on('apply.daterangepicker', function (ev, picker) {
+        $(this).val(picker.startDate.format('DD-MM-YYYY HH:mm'));
+      });
+    },
+  );
+});

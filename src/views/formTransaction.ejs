@@ -56,7 +56,9 @@
 <script>
   let action = '<%- action %>';
   let type = '<%- type %>';
-  let values = "<% typeof values !== 'undefined' ? values : '' %>";
+  let value = '<%- JSON.stringify(value) %>';
+  value = JSON.parse(value);
+  let redirect = action.split('/')[1];
 </script>
 
 <script src="/js/handle-transaction.js"></script>

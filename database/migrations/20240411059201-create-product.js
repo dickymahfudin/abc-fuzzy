@@ -1,4 +1,4 @@
-const dataLaporan = require('../../src/helpers/dataLaporan');
+const { generateProduct } = require('../../src/helpers/dataLaporan');
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up(queryInterface, Sequelize) {
@@ -36,7 +36,7 @@ module.exports = {
         defaultValue: Sequelize.fn('NOW'),
       },
     });
-    await queryInterface.bulkInsert('product', dataLaporan.product);
+    await generateProduct();
   },
   async down(queryInterface) {
     await queryInterface.dropTable('product');

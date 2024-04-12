@@ -1,14 +1,14 @@
 const { Op } = require('sequelize');
 
-const generateTable = async ({ req, model, attributes = {} }) => {
+const generateTable = async ({ req, model, filter = {}, options = {} }) => {
   const { columns, order, start, length, search, draw } = req;
 
   const paramQuery = {
     offset: start ? +start : 0,
     limit: length ? +length : 10,
-    where: {},
+    where: { ...filter },
     order: [],
-    attributes,
+    ...options,
   };
 
   if (order) {
@@ -17,9 +17,13 @@ const generateTable = async ({ req, model, attributes = {} }) => {
   }
 
   if (search?.value) {
+    const searchId = parseInt(search.value.replace(/\D/g, ''), 10);
+
     const columnSearch = columns
       .filter(el => el.searchable === 'true')
-      .map(el => ({ [el.data]: { [Op.like]: `%${search.value}%` } }));
+      .map(el => ({
+        [el.data]: { [Op.like]: el.data === 'id' ? `%${searchId}%` : `%${search.value}%` },
+      }));
     paramQuery.where[Op.or] = columnSearch;
   }
   const data = await model.findAll(paramQuery);

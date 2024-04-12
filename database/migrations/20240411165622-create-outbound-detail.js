@@ -14,13 +14,8 @@ module.exports = {
           model: 'outbound',
           key: 'id',
         },
-      },
-      inboundId: {
-        type: Sequelize.INTEGER,
-        references: {
-          model: 'inbound',
-          key: 'id',
-        },
+        onUpdate: 'cascade',
+        onDelete: 'cascade',
       },
       productId: {
         type: Sequelize.INTEGER,
@@ -28,6 +23,8 @@ module.exports = {
           model: 'product',
           key: 'id',
         },
+        onUpdate: 'cascade',
+        onDelete: 'cascade',
       },
       amount: {
         type: Sequelize.INTEGER,

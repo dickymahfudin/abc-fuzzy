@@ -40,5 +40,7 @@ module.exports = {
       { devDependencies: false, optionalDependencies: false, peerDependencies: false },
     ],
     'no-nested-ternary': 'off',
+    'no-restricted-syntax': 'off',
+    'no-await-in-loop': 'off',
   },
 };

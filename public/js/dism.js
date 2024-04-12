@@ -5,21 +5,44 @@ $(document).ready(function () {
     const url = `${currentUrl}/table`;
     const parsUrl = url.split('/')[0];
     const columns = [];
+    const withQuery = me.attr('withQuery') === 'true' ? true : false;
+    let query = {};
+    if (withQuery) {
+      const queryString = window.location.search;
+      const urlParams = new URLSearchParams(queryString);
+      for (let param of urlParams) {
+        query[param[0]] = param[1];
+      }
+    }
 
     $(`${idTable} th`).each(function (i) {
       const key = $(this).attr('key');
       const typeRender = $(this).attr('render');
-      let render;
+      const renderCol = $(this).attr('render-col');
+      const searchable = $(this).attr('search');
+      const sortable = $(this).attr('sort') === 'false' ? false : true;
+      let column = { data: key, type: 'string', render: '', searchable, sortable };
+
       if (typeRender === 'currency') {
-        render = function (data) {
+        column.render = function (data) {
           return parseInt(data).toLocaleString('id-ID', {
             style: 'currency',
             currency: 'IDR',
             minimumFractionDigits: 0,
           });
         };
+      } else if (typeRender === 'dateTime') {
+        column.render = function (data) {
+          return moment(data).locale('id').format('DD MMMM YYYY HH:mm');
+        };
       }
-      columns.push({ data: key, type: 'string', render });
+
+      if (renderCol) {
+        column.render = function (id, type, full) {
+          return full[renderCol];
+        };
+      }
+      columns.push(column);
     });
 
     const isDetail = me.attr('detail') === 'true';
@@ -56,7 +79,7 @@ $(document).ready(function () {
 
     new DataTable(idTable, {
       columns,
-      ajax: { url },
+      ajax: { url, data: { ...query } },
       scrollX: true,
       columnDefs: [
         {
