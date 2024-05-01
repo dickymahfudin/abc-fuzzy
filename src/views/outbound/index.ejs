@@ -13,14 +13,20 @@
   </div>
   <div class="card-body">
     <div class="mt-3">
-      <table class="table table-striped display nowrap" style="width: 100%" id="dataTable" edit="true">
+      <table
+        class="table table-striped display nowrap"
+        style="width: 100%"
+        id="dataTable"
+        edit="true"
+        delete="true"
+        withQuery="true"
+      >
         <thead>
           <tr>
-            <th key="sku">No Barang</th>
-            <th key="name">Nama</th>
-            <th key="buyPrice" render="currency">Harga Beli Terakhir</th>
-            <th key="currentPrice" render="currency">Harga Jual</th>
-            <th key="stock">Stok Saat Ini</th>
+            <th key="id" render-col="transactionNumber">No Invoice</th>
+            <th key="transactionDate" render="dateTime" search="false">Tanggal Transaksi</th>
+            <th key="totalPrice" render="currency">Total Transaksi</th>
+            <th key="detail" search="false" sort="false">Detail Penjualan</th>
           </tr>
         </thead>
       </table>

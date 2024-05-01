@@ -29,7 +29,7 @@ const debounce = (callback, delay) => {
   };
 };
 
-const fetch = query => {
+const fetchProduct = query => {
   loading = true;
   tagProduct.append(`
       <div class="spinner-border my-2" role="status">
@@ -64,7 +64,7 @@ const fetch = query => {
   });
 };
 
-const refetch = debounce(fetch, 500);
+const refetch = debounce(fetchProduct, 500);
 
 const rupiah = number => {
   return new Intl.NumberFormat('id-ID', {
@@ -84,9 +84,11 @@ const handleAddProduct = id => {
 
 const handleRemoveProduct = id => {
   const findProduct = dataProducts.find(e => e.id == id);
-  productCart = productCart.filter(e => e.id != id);
-  findProduct.stock = findProduct.baseStock;
-  handleStock();
+  if (findProduct) {
+    productCart = productCart.filter(e => e.id != id);
+    findProduct.stock = findProduct.baseStock;
+    handleStock();
+  }
 };
 
 const renderProductList = datas => {
@@ -176,15 +178,17 @@ const renderProductCart = () => {
 };
 
 const handleStock = () => {
-  if (configTrans.amountCart) {
+  if (configTrans.amountCart && dataProducts.length) {
     productCart.forEach(cart => {
       const findProduct = dataProducts.find(e => e.id == cart.id);
-      let stock = findProduct.baseStock - cart.amount;
-      if (stock < 0) {
-        stock = 0;
-        cart.amount = findProduct.baseStock;
+      if (findProduct) {
+        let stock = findProduct.baseStock - cart.amount;
+        if (stock < 0) {
+          stock = 0;
+          cart.amount = findProduct.baseStock;
+        }
+        findProduct.stock = stock;
       }
-      findProduct.stock = stock;
     });
   }
 
@@ -221,8 +225,8 @@ $('#submitTransaction').click(function (e) {
     $.ajax({
       type: 'post',
       url: action,
-      data: payload,
-      dataType: 'json',
+      contentType: 'application/json',
+      data: JSON.stringify(payload),
       success: function (res) {
         $('#submitTransaction').prop('disabled', false);
         if (res.success) {
@@ -253,13 +257,13 @@ tagProduct.scroll(function () {
   }
 });
 
-if (value?.transactionDate) {
+if (value?.id) {
   const date = moment(value.transactionDate).format('DD-MM-YYYY HH:mm');
   const detail = value.detail.map(e => ({
     id: e.product.id,
     amount: e.amount,
     name: e.product.name,
-    buyPrice: e.product[configTrans.priceType],
+    [configTrans.priceType]: e.product[configTrans.priceType],
   }));
 
   inputDate.val(date);
@@ -267,12 +271,12 @@ if (value?.transactionDate) {
   productCart = detail;
   renderProductCart();
 } else {
-  const currentDate = moment().add(1, 'day').format('DD-MM-YYYY HH:mm');
+  const currentDate = moment().format('DD-MM-YYYY HH:mm');
   inputDate.val(currentDate);
   transactionDate = currentDate;
 }
 
-fetch();
+fetchProduct();
 
 $(document).ready(function () {
   inputDate.daterangepicker(

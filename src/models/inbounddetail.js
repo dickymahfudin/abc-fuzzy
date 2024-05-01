@@ -12,6 +12,15 @@ module.exports = (sequelize, DataTypes) => {
         foreignKey: 'productId',
         as: 'product',
       });
+      this.belongsTo(models.InboundModel, {
+        foreignKey: 'inboundId',
+        as: 'inbound',
+      });
+      this.hasMany(models.OutboundRefModel, {
+        sourceKey: 'id',
+        foreignKey: 'inboundDetailId',
+        as: 'refs',
+      });
     }
   }
   InboundDetail.init(

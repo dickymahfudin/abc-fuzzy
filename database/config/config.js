@@ -13,7 +13,7 @@ const config = {
   host,
   dialect,
   timezone: '+07:00',
-  logging: false,
+  logging: true,
 };
 
 module.exports = {

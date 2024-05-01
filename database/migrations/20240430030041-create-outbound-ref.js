@@ -1,26 +1,28 @@
+const { generateOutbound } = require('../../src/helpers/dataLaporan');
+
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up(queryInterface, Sequelize) {
-    await queryInterface.createTable('outboundDetail', {
+    await queryInterface.createTable('outboundRef', {
       id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
         type: Sequelize.INTEGER,
       },
-      outboundId: {
+      outboundDetailId: {
         type: Sequelize.INTEGER,
         references: {
-          model: 'outbound',
+          model: 'outboundDetail',
           key: 'id',
         },
         onUpdate: 'cascade',
         onDelete: 'cascade',
       },
-      productId: {
+      inboundDetailId: {
         type: Sequelize.INTEGER,
         references: {
-          model: 'product',
+          model: 'inboundDetail',
           key: 'id',
         },
         onUpdate: 'cascade',
@@ -29,22 +31,24 @@ module.exports = {
       amount: {
         type: Sequelize.INTEGER,
       },
+      buyPrice: {
+        type: Sequelize.INTEGER,
+      },
       currentPrice: {
         type: Sequelize.INTEGER,
       },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE,
-        defaultValue: Sequelize.fn('NOW'),
       },
       updatedAt: {
         allowNull: false,
         type: Sequelize.DATE,
-        defaultValue: Sequelize.fn('NOW'),
       },
     });
+    await generateOutbound();
   },
   async down(queryInterface) {
-    await queryInterface.dropTable('outboundDetail');
+    await queryInterface.dropTable('outboundRef');
   },
 };

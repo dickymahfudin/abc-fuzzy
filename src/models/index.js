@@ -19,6 +19,7 @@ db.InboundModel = require('./inbound')(sequelize, Sequelize.DataTypes);
 db.InboundDetailModel = require('./inbounddetail')(sequelize, Sequelize.DataTypes);
 db.OutboundModel = require('./outbound')(sequelize, Sequelize.DataTypes);
 db.OutboundDetailModel = require('./outbounddetail')(sequelize, Sequelize.DataTypes);
+db.OutboundRefModel = require('./outboundref')(sequelize, Sequelize.DataTypes);
 
 Object.keys(db).forEach(modelName => {
   if (db[modelName].associate) {

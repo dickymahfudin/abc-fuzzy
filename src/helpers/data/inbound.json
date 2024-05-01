@@ -1,152 +1,182 @@
 [
   {
-    "sku": 89686596885,
+    "sku": "89686596885",
     "buyPrice": 7588,
-    "amount": 92
+    "amount": 604,
+    "soldAmount": 512
   },
   {
-    "sku": 89686598476,
+    "sku": "89686598476",
     "buyPrice": 7588,
-    "amount": 78
+    "amount": 507,
+    "soldAmount": 429
   },
   {
-    "sku": 89686598186,
+    "sku": "89686598186",
     "buyPrice": 7588,
-    "amount": 85
+    "amount": 507,
+    "soldAmount": 422
   },
   {
-    "sku": 89686598353,
+    "sku": "89686598353",
     "buyPrice": 7588,
-    "amount": 69
+    "amount": 436,
+    "soldAmount": 367
   },
   {
-    "sku": 89686598766,
+    "sku": "89686598766",
     "buyPrice": 14325,
-    "amount": 34
+    "amount": 217,
+    "soldAmount": 183
   },
   {
-    "sku": 89686598957,
+    "sku": "89686598957",
     "buyPrice": 7588,
-    "amount": 64
+    "amount": 406,
+    "soldAmount": 342
   },
   {
-    "sku": 89686598056,
+    "sku": "89686598056",
     "buyPrice": 7588,
-    "amount": 61
+    "amount": 382,
+    "soldAmount": 321
   },
   {
-    "sku": 89686598650,
+    "sku": "89686598650",
     "buyPrice": 7588,
-    "amount": 59
+    "amount": 373,
+    "soldAmount": 314
   },
   {
-    "sku": 89686598025,
+    "sku": "89686598025",
     "buyPrice": 4189,
-    "amount": 74
+    "amount": 482,
+    "soldAmount": 408
   },
   {
-    "sku": 89686598599,
+    "sku": "89686598599",
     "buyPrice": 7588,
-    "amount": 41
+    "amount": 238,
+    "soldAmount": 197
   },
   {
-    "sku": 89686599046,
+    "sku": "89686599046",
     "buyPrice": 6324,
-    "amount": 42
+    "amount": 257,
+    "soldAmount": 215
   },
   {
-    "sku": 89686598582,
+    "sku": "89686598582",
     "buyPrice": 4189,
-    "amount": 43
+    "amount": 287,
+    "soldAmount": 244
   },
   {
-    "sku": 89686600247,
+    "sku": "89686600247",
     "buyPrice": 2764,
-    "amount": 68
+    "amount": 425,
+    "soldAmount": 357
   },
   {
-    "sku": 89686596878,
+    "sku": "89686596878",
     "buyPrice": 4189,
-    "amount": 56
+    "amount": 269,
+    "soldAmount": 213
   },
   {
-    "sku": 89686598926,
+    "sku": "89686598926",
     "buyPrice": 1586,
-    "amount": 88
+    "amount": 585,
+    "soldAmount": 497
   },
   {
-    "sku": 89686598179,
+    "sku": "89686598179",
     "buyPrice": 4189,
-    "amount": 38
+    "amount": 227,
+    "soldAmount": 189
   },
   {
-    "sku": 89686598421,
+    "sku": "89686598421",
     "buyPrice": 4189,
-    "amount": 36
+    "amount": 214,
+    "soldAmount": 178
   },
   {
-    "sku": 89686600346,
+    "sku": "89686600346",
     "buyPrice": 2687,
-    "amount": 53
+    "amount": 314,
+    "soldAmount": 261
   },
   {
-    "sku": 89686598575,
+    "sku": "89686598575",
     "buyPrice": 1586,
-    "amount": 72
+    "amount": 454,
+    "soldAmount": 382
   },
   {
-    "sku": 89686598322,
+    "sku": "89686598322",
     "buyPrice": 4189,
-    "amount": 26
+    "amount": 162,
+    "soldAmount": 136
   },
   {
-    "sku": 89686600544,
+    "sku": "89686600544",
     "buyPrice": 3161,
-    "amount": 35
+    "amount": 207,
+    "soldAmount": 172
   },
   {
-    "sku": 89686598414,
+    "sku": "89686598414",
     "buyPrice": 1586,
-    "amount": 52
+    "amount": 345,
+    "soldAmount": 293
   },
   {
-    "sku": 89686598162,
+    "sku": "89686598162",
     "buyPrice": 1698,
-    "amount": 47
+    "amount": 322,
+    "soldAmount": 275
   },
   {
-    "sku": 89686598728,
+    "sku": "89686598728",
     "buyPrice": 1700,
-    "amount": 49
+    "amount": 297,
+    "soldAmount": 248
   },
   {
-    "sku": 89686600025,
+    "sku": "89686600025",
     "buyPrice": 850,
-    "amount": 75
+    "amount": 506,
+    "soldAmount": 431
   },
   {
-    "sku": 89686600810,
+    "sku": "89686600810",
     "buyPrice": 790,
-    "amount": 73
+    "amount": 481,
+    "soldAmount": 408
   },
   {
-    "sku": 89686598018,
+    "sku": "89686598018",
     "buyPrice": 1586,
-    "amount": 33
+    "amount": 200,
+    "soldAmount": 167
   },
   {
-    "sku": 89686600513,
+    "sku": "89686600513",
     "buyPrice": 762,
-    "amount": 57
+    "amount": 360,
+    "soldAmount": 303
   },
   {
-    "sku": 89686600223,
+    "sku": "89686600223",
     "buyPrice": 850,
-    "amount": 55
+    "amount": 344,
+    "soldAmount": 289
   },
   {
-    "sku": 89686600001,
+    "sku": "89686600001",
     "buyPrice": 800,
-    "amount": 31
+    "amount": 196,
+    "soldAmount": 165
   }
 ]

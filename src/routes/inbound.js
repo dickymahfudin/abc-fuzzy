@@ -10,9 +10,8 @@ const title = 'Inbound';
 const path = 'inbound';
 const exclude = ['createdAt', 'updatedAt'];
 const attributeProduct = Object.keys(ProductModel.getAttributes());
-const attributeInbound = Object.keys(InboundModel.getAttributes());
+// const attributeInbound = Object.keys(InboundModel.getAttributes());
 const attributeInboundDetail = Object.keys(InboundDetailModel.getAttributes());
-console.log(attributeInbound);
 
 router.get('/', (req, res) => res.render(`${path}/index`, { title }));
 
@@ -37,8 +36,6 @@ router.post('/', async (req, res) => {
     for (const det of detail) {
       const product = products.find(e => e.id === +det.productId);
       const amount = +det.amount;
-
-      if (amount < 1) errorAmount.push(product);
 
       inbound.detail.push({
         productId: product.id,
