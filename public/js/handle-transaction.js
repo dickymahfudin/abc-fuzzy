@@ -10,10 +10,12 @@ let filter = {
 };
 let dataProducts = [];
 let productCart = [];
+let tempDetail = [];
 const configTrans = [
   { priceType: 'buyPrice', priceCart: false, amountCart: false },
   { priceType: 'currentPrice', priceCart: true, amountCart: true },
 ][type === 'Pembelian' ? 0 : 1];
+let title = 'Tambah';
 
 inputDate.on('cancel.daterangepicker', function (ev, picker) {
   $(this).val('');
@@ -56,7 +58,11 @@ const fetchProduct = query => {
     success: function (res) {
       loading = false;
       let data = res?.data || [];
-      data = data.map(e => ({ ...e, baseStock: e.stock }));
+      data = data.map(e => {
+        const detailStock = tempDetail.find(el => el.id == e.id)?.amount ?? 0;
+        const baseStock = e.stock + detailStock;
+        return { ...e, baseStock };
+      });
       dataProducts = [...dataProducts, ...data];
       filter = { ...filter, ...query, totalPage: res?.totalPage ?? 0 };
       handleStock();
@@ -98,6 +104,7 @@ const renderProductList = datas => {
     const currentPrice = rupiah(product.currentPrice);
     const buyPrice = rupiah(product.buyPrice);
     const stock = product?.stock ?? 0;
+    const disabled = configTrans.amountCart && stock == 0 ? 'disabled' : '';
     return `
             <div class="col-md-12">
                 <div class="card text-dark bg-info mb-3 p-2">
@@ -109,7 +116,7 @@ const renderProductList = datas => {
                             <div>Stock: ${stock}</div>
                         </div>
                         <div class="col-4 d-flex justify-content-end">
-                            <button type="button" onclick="handleAddProduct('${product.id}')" class="btn btn-primary">
+                            <button type="button" ${disabled} onclick="handleAddProduct('${product.id}')" class="btn btn-primary">
                                 <i class="bx bx-right-arrow"></i>
                             </button>
                         </div>
@@ -259,17 +266,21 @@ tagProduct.scroll(function () {
 
 if (value?.id) {
   const date = moment(value.transactionDate).format('DD-MM-YYYY HH:mm');
-  const detail = value.detail.map(e => ({
+  productCart = value.detail.map(e => ({
     id: e.product.id,
     amount: e.amount,
     name: e.product.name,
     [configTrans.priceType]: e.product[configTrans.priceType],
   }));
 
+  if (configTrans.amountCart) {
+    tempDetail = productCart;
+  }
+
   inputDate.val(date);
   transactionDate = date;
-  productCart = detail;
   renderProductCart();
+  title = 'Edit';
 } else {
   const currentDate = moment().format('DD-MM-YYYY HH:mm');
   inputDate.val(currentDate);
@@ -298,3 +309,5 @@ $(document).ready(function () {
     },
   );
 });
+
+$('#title').text(`${title} Data ${type}`);

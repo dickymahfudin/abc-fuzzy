@@ -20,7 +20,6 @@ module.exports = {
   development: { ...config },
   production: {
     ...config,
-    logging: false,
     dialectOptions: {
       dateStrings: true,
       typeCast: true,

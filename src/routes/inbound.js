@@ -241,4 +241,30 @@ router.get('/table', async (req, res) => {
   return res.json(result);
 });
 
+router.post('/delete/:id', async (req, res) => {
+  const { id } = req.params;
+  const data = await InboundModel.findOne({
+    where: { id },
+    include: [
+      {
+        model: InboundDetailModel,
+        as: 'detail',
+        where: {
+          soldAmount: {
+            [Op.eq]: 0,
+          },
+        },
+      },
+    ],
+  });
+
+  if (!data) {
+    req.flash('error', `Tidak Dapat menghapus data karna ada produk yang sudah terjual`);
+    return res.redirect(`/inbound`);
+  }
+  await data.destroy();
+  req.flash('succes', `Berhasil Menghapus Data Pembelian`);
+  return res.redirect(`/inbound`);
+});
+
 module.exports = router;

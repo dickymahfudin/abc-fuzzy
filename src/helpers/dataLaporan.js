@@ -17,6 +17,23 @@ const subDate = 7;
 const date = moment().subtract(subDate, 'day');
 
 const generateProduct = async () => await ProductModel.bulkCreate(productData);
+const generateProductDummy = async () =>
+  await ProductModel.bulkCreate([
+    {
+      sku: 89686596885,
+      name: 'LAYS AYAM PAPRIKA 65',
+      buyPrice: 7588,
+      currentPrice: 8500,
+      stock: 20,
+    },
+    {
+      sku: 89686598476,
+      name: 'CHITATO AYAM BUMBU 75',
+      buyPrice: 7588,
+      currentPrice: 8500,
+      stock: 20,
+    },
+  ]);
 
 const generateInbound = async () => {
   const inbound = [];
@@ -36,6 +53,65 @@ const generateInbound = async () => {
         amount: det.amount,
         soldAmount: det.soldAmount,
         buyPrice: det.buyPrice,
+        createdAt: date,
+        updatedAt: date,
+      });
+    }
+    inbound.push({
+      transactionDate: date,
+      totalPrice,
+      createdAt: date,
+      updatedAt: date,
+      detail,
+    });
+  }
+
+  await InboundModel.bulkCreate(inbound, { include: [{ model: InboundDetailModel, as: 'detail' }] });
+};
+
+const generateInboundDummy = async () => {
+  const inbound = [];
+  const datas = [
+    {
+      detail: [
+        {
+          amount: 10,
+          productId: 1,
+        },
+        {
+          amount: 10,
+          productId: 2,
+        },
+      ],
+    },
+    {
+      detail: [
+        {
+          amount: 10,
+          productId: 1,
+        },
+        {
+          amount: 10,
+          productId: 2,
+        },
+      ],
+    },
+  ];
+
+  const products = await ProductModel.findAll({ raw: true, nest: true });
+
+  for (const details of datas) {
+    const detail = [];
+    let totalPrice = 0;
+
+    for (const det of details.detail) {
+      const findProduct = products.find(e => e.id === det.productId);
+      totalPrice += det.amount * findProduct.buyPrice;
+      detail.push({
+        productId: findProduct.id,
+        amount: det.amount,
+        soldAmount: det.soldAmount,
+        buyPrice: findProduct.buyPrice,
         createdAt: date,
         updatedAt: date,
       });
@@ -101,6 +177,10 @@ const generateOutbound = async () => {
 
 module.exports = {
   generateProduct,
-  generateInbound: () => {},
-  generateOutbound: () => {},
+  generateInbound,
+  generateOutbound,
+
+  // generateProduct: generateProductDummy,
+  // generateInbound: generateInboundDummy,
+  // generateOutbound: () => {},
 };
