@@ -28,7 +28,6 @@ module.exports = (sequelize, DataTypes) => {
       outboundId: DataTypes.INTEGER,
       productId: DataTypes.INTEGER,
       amount: DataTypes.INTEGER,
-      currentPrice: DataTypes.INTEGER,
     },
     {
       sequelize,

@@ -16,6 +16,10 @@
     let startDate = urlParams.get('startDate') ?? '';
     let endDate = urlParams.get('endDate') ?? '';
 
+    if (currentUrl.includes('calculation')) {
+      const searchDate = $('#searchDate');
+      searchDate.text('Hitung');
+    }
     $('#date').daterangepicker(
       {
         autoUpdateInput: false,

@@ -13,20 +13,10 @@ const config = {
   host,
   dialect,
   timezone: '+07:00',
-  logging: true,
+  port: 3306,
 };
 
 module.exports = {
   development: { ...config },
-  production: {
-    ...config,
-    dialectOptions: {
-      dateStrings: true,
-      typeCast: true,
-      ssl: {
-        require: true,
-        rejectUnauthorized: false,
-      },
-    },
-  },
+  production: { ...config },
 };

@@ -1,0 +1,151 @@
+<h4 class="mb-3">Penerapan Metode ABC Analysis</h4>
+<div class="mb-3">
+    <p style="text-align: left;">
+        \[
+        \text{Pendapatan} = \text{Harga Jual} \times \text{Penjualan}
+        \]
+    </p>
+    <p>
+        \[
+        \text{Total Pendapatan} = \sum \text{Total Pendapatan semua barang}
+        \]
+    </p>
+    <p>
+        \[
+        \text{pendapatan\%} = \frac{\text{Pendapatan}}{\text{Total Pendapatan}} \times 100
+        \]
+    </p>
+    <p>
+        \[
+        \text{Total Pendapatan} = <%= data.totalSales.toLocaleString('id-ID') %>
+        \]
+    </p>
+    <hr>
+
+    <div class="calculation-abc"></div>
+</div>
+<hr>
+
+<h4 class="mb-3">Penerapan Fuzzy Mamdani</h4>
+<h6 class="mb-3">Variabel Persentase ABC</h6>
+<div class="mb-3">
+    <p>Ilustrasi variabel persentase ABC dapat dilihat pada grafik berikut:</p>
+    <p>
+        \[
+        \mu[x]
+        \]
+    </p>
+    <p>Rendah:</p>
+    <p>
+        \[
+        \begin{cases}
+        0 & x \geq 4 \\
+        \frac{4-x}{4-2} & 2 \leq x \leq 4 \\
+        1 & x \leq 2
+        \end{cases}
+        \]
+    </p>
+    <p>Sedang:</p>
+    <p>
+        \[
+        \begin{cases}
+        0 & x \leq 0 \text{ or } x \geq 4 \\
+        \frac{x-2}{4-2} & 2 \leq x \leq 4 \\
+        \frac{6-x}{6-4} & 4 \leq x \leq 6
+        \end{cases}
+        \]
+    </p>
+    <p>Tinggi:</p>
+    <p>
+        \[
+        \begin{cases}
+        0 & x \leq 4 \\
+        \frac{x-4}{6-4} & 4 \leq x \leq 6 \\
+        1 & x \geq 6
+        \end{cases}
+        \]
+    </p>
+    
+    <div class="fuzzy-abc"></div>
+</div>
+
+<hr>
+<h6 class="mb-3">Variabel Persediaan</h6>
+<div class="mb-3">
+    <p>Ilustrasi variabel persediaan dapat dilihat pada grafik berikut:</p>
+    <p>
+        \[
+        \mu[x]
+        \]
+    </p>
+    <p>Sedikit:</p>
+    <p>
+        \[
+        \begin{cases}
+        0 & x \geq 80 \\
+        \frac{40-x}{40-40} & 40 \leq x \leq 80 \\
+        1 & x \leq 40
+        \end{cases}
+        \]
+    </p>
+    <p>Cukup:</p>
+    <p>
+        \[
+        \begin{cases}
+        0 & x \leq 40 \text{ or } x \geq 80 \\
+        \frac{x-40}{80-40} & 40 \leq x \leq 80 \\
+        \frac{120-x}{120-60} & 80 \leq x \leq 120
+        \end{cases}
+        \]
+    </p>
+    <p>Banyak:</p>
+    <p>
+        \[
+        \begin{cases}
+        0 & x \leq 60 \text{ or } x \geq 120 \\
+        \frac{x-80}{120-80} & 60 \leq x \leq 120
+        \end{cases}
+        \]
+    </p>
+    <div class="fuzzy-stock"></div>
+</div>
+
+<hr>
+<h6 class="mb-3">Penentuan Rule Base Fuzzy</h6>
+<div class="mb-3">
+    <p>Daftar aturan fuzzy yang didefinisikan dapat dilihat pada tabel berikut:</p>
+    <div class="fuzzy-rule"></div>
+</div>
+<h6 class="mb-3">Pengelompokkan Nilai Maksimum</h6>
+<div class="mb-3">
+    <div class="fuzzy-max"></div>
+</div>
+
+<hr>
+
+<h6 class="mb-3">Defuzzyfikasi</h6>
+<div class="mb-3">
+    <p>Nilai titik tengah ditentukan pada tabel berikut:</p>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Sedikit</th>
+                <th>Cukup</th>
+                <th>Banyak</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>30</td>
+                <td>60</td>
+                <td>90</td>
+            </tr>
+        </tbody>
+    </table>
+    <p>
+        \[
+        Z = \frac{(\alpha_{\text{sedikit}} \times \text{sedikit}) + (\alpha_{\text{cukup}} \times \text{cukup}) + (\alpha_{\text{banyak}} \times \text{banyak})}{\alpha_{\text{sedikit}} + \alpha_{\text{cukup}} + \alpha_{\text{banyak}}}
+        \]
+    </p>
+    <div class="fuzzy-defuzzy"></div>
+</div>

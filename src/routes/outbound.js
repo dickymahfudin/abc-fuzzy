@@ -92,7 +92,6 @@ router.post('/', async (req, res) => {
       outbound.detail.push({
         productId: product.id,
         amount,
-        currentPrice: product.currentPrice,
         createdAt: currentDate,
         updatedAt: currentDate,
         refs: outboundDetailRef,
@@ -257,7 +256,6 @@ router.post('/:id', async (req, res) => {
         ...findDet,
         productId: product.id,
         amount,
-        currentPrice: product.currentPrice,
         createdAt: currentDate,
         updatedAt: currentDate,
         refs: outboundDetailRef,

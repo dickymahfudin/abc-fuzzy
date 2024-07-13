@@ -1,0 +1,43 @@
+version: '3.7'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - ./:/usr/src/app
+      - node_modules:/usr/src/app/node_modules
+    restart: unless-stopped
+    ports:
+      - '${PORT}:${PORT}'
+    networks:
+      - app
+    depends_on:
+      - db
+    env_file:
+      - ./.env # Tambahkan ini untuk memastikan variabel lingkungan tersedia di container
+
+  db:
+    image: mysql:8
+    restart: always
+    volumes:
+      - app_data:/var/lib/mysql
+    ports:
+      - '${DB_PORT_EXPOSE}:3306'
+    environment:
+      MYSQL_DATABASE: ${DB_DATABASE}
+      MYSQL_USER: ${DB_USERNAME}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+    env_file:
+      - ./.env
+    networks:
+      - app
+
+networks:
+  app:
+
+volumes:
+  app_data:
+  node_modules:

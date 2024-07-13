@@ -3,6 +3,7 @@ const process = require('process');
 
 const env = process.env.NODE_ENV || 'development';
 const config = require('../../database/config/config')[env];
+console.log(config);
 
 const db = {};
 

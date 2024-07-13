@@ -1,0 +1,201 @@
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+<div class="card shadow mb-4">
+  <div class="card-header py-3">
+    <h3 class="m-0 font-weight-bold">Kalkulasi</h3>
+  </div>
+  <div class="card-body">
+    <%- include('../dateRange'); %>
+    <ul class="mt-3">
+      <li class="text-warning">Data Penjualan akan mengikuti tanggal yang dipilih</li>
+      <li class="text-warning">Untuk data Persediaan akan diambil berdasarkan stok hari ini</li>
+    </ul>
+    <h5>Penerapan Metode ABC Analysis</h5>
+    <div class="table-responsive mt-3">
+      <table class="table table-bordered table-hover display nowrap" style="width: 100%" id="abcTable">
+        <thead class="thead-dark">
+          <tr>
+            <th>No</th>
+            <th>Nama Produk</th>
+            <th>Harga Beli</th>
+            <th>Harga Jual</th>
+            <th>Jumlah Terjual</th>
+            <th>Stok</th>
+            <th>Total Penjualan</th>
+            <th>Persentase Penjualan</th>
+            <th>Kumulatif</th>
+            <th>Kelas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% data.abc.forEach((item, index) => { %>
+            <tr>
+              <td><%= index + 1 %></td>
+              <td><%= item.name %></td>
+              <td><%= item.buyPrice.toLocaleString('id-ID', { style: 'currency', currency: 'IDR', minimumFractionDigits: 0 }) %></td>
+              <td><%= item.currentPrice.toLocaleString('id-ID', { style: 'currency', currency: 'IDR', minimumFractionDigits: 0 }) %></td>
+              <td><%= item.soldAmount %></td>
+              <td><%= item.stock %></td>
+              <td><%= item.totalSales.toLocaleString('id-ID', { style: 'currency', currency: 'IDR', minimumFractionDigits: 0 }) %></td>
+              <td><%= item.totalSalesPercentage %></td>
+              <td><%= item.cumulative %></td>
+              <td><%= item.category %></td>
+            </tr>
+          <% }) %>
+        </tbody>
+      </table>
+    </div>
+    <h5 class="mt-4">Penerapan Metode Fuzzy</h5>
+    <div class="table-responsive mt-3">
+      <table class="table table-bordered table-hover display nowrap" style="width: 100%" id="fuzzyTable">
+        <thead class="thead-dark">
+          <tr>
+            <th>No</th>
+            <th>Nama Produk</th>
+            <th>Stok Saat Ini</th>
+            <th>Prediksi Pembelian</th>
+            <th>Lihat Rumus</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% data.fuzzy.forEach((item, index) => { %>
+            <tr>
+              <td><%= index + 1 %></td>
+              <td><%= item.name %></td>
+              <td><%= item.stock %></td>
+              <td><%= item.fuzzy %></td>
+              <td><a href="#" class="btn btn-primary btn-sm lihat-rumus" data-index="<%= index %>">Lihat Rumus</a></td>
+            </tr>
+          <% }) %>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="rumusModal"  role="dialog" aria-labelledby="rumusModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="rumusModalLabel">Rumus Fuzzy</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <%- include('./calculation'); %>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  $(document).ready(function() {
+    $('#abcTable').DataTable({ scrollX: true, searching: false });
+    $('#fuzzyTable').DataTable({ scrollX: true, searching: false });
+    let data = '<%- JSON.stringify(data) %>';
+    data = JSON.parse(data);
+
+    $(document).on('click', '.lihat-rumus', function() {
+      const index = $(this).data('index');
+      const abc = data.abc[index];
+      const fuzzy = data.fuzzy[index];
+      const aggregatedSedikit = (fuzzy?.aggregated?.Sedikit ?? 0).toFixed(2);
+      const aggregatedCukup = (fuzzy?.aggregated?.Cukup ?? 0).toFixed(2);
+      const aggregatedBanyak = (fuzzy?.aggregated?.Banyak ?? 0).toFixed(2);
+      const abcHtml = `
+        <p>
+            \\[
+            \\text{Pendapatan} = ${abc.currentPrice} \\times ${abc.soldAmount} = ${abc.totalSales}
+            \\]
+        </p>
+        <p>
+            \\[
+            \\text{pendapatan\\%} = \\frac{${abc.totalSales}}{${data.totalSales}} \\times 100 = ${abc.totalSalesPercentage}
+            \\]
+        </p>
+        <p>
+            \\[
+            \\text{Kumulatif} = ${abc.cumulative}
+            \\]
+        </p>
+        <p>
+            \\[
+            \\text{Kelas} = ${abc.category}
+            \\]
+        </p>
+      `;
+      $('.calculation-abc').html(abcHtml);
+      $('.fuzzy-abc').html(`
+        <p>
+          \\[
+          x = ${abc.totalSalesPercentage}
+          \\]
+        </p>
+        <p>rendah = ${fuzzy.fuzzyABC[0].value}</p>
+        <p>sedang = ${fuzzy.fuzzyABC[1].value}</p>
+        <p>tinggi = ${fuzzy.fuzzyABC[2].value}</p>
+      `);
+      $('.fuzzy-stock').html(`
+        <p>
+          \\[
+          x = ${abc.stock}
+          \\]
+        </p>
+        <p>sedikit = ${fuzzy.fuzzyPersediaan[0].value}</p>
+        <p>cukup = ${fuzzy.fuzzyPersediaan[1].value}</p>
+        <p>banyak = ${fuzzy.fuzzyPersediaan[2].value}</p>
+      `);
+      $('.fuzzy-rule').html(`
+        <div class="table-responsive">
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th>No.</th>
+                <th>IF Persentase ABC</th>
+                <th>AND Persediaan</th>
+                <th>THEN Pembelian</th>
+                <th>Hasil</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${fuzzy.ruleResults.map((rule, index) => `
+                <tr>
+                  <td>R${index + 1}</td>
+                  <td>${rule.if[0]}</td>
+                  <td>${rule.if[1]}</td>
+                  <td>${rule.then}</td>
+                  <td>${rule.value.toFixed(2)}</td>
+                </tr>
+              `).join('')}
+            </tbody>
+          </table>
+        </div>
+      `);
+      $('.fuzzy-max').html(`
+        \\[
+          \\alpha_{\\text{sedikit}} = ${aggregatedSedikit} \\
+          \\alpha_{\\text{cukup}} = ${aggregatedCukup} \\
+          \\alpha_{\\text{banyak}} = ${aggregatedBanyak} 
+        \\]
+      `);
+      $('.fuzzy-defuzzy').html(`
+        <p>
+          \\[
+          Z = \\frac{(${aggregatedSedikit} \\times 30) + (${aggregatedCukup} \\times 60) + (${aggregatedBanyak} \\times 90)}{${aggregatedSedikit} + ${aggregatedCukup} + ${aggregatedBanyak}}
+          \\]
+        </p>
+        <p>
+          \\[
+          Z = ${fuzzy.z}
+          \\]
+        </p>
+      `);
+      MathJax.typesetPromise().then(() => {
+        $('#rumusModal').modal('show');
+      });
+    });
+  });
+</script>

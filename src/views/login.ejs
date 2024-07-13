@@ -13,10 +13,10 @@
           <!-- /Logo -->
           <h4 class="mb-2">Selamat Datang 👋</h4>
 
-          <form id="formAuthentication" class="mb-3" action="index.html" method="POST">
+          <form id="formAuthentication" class="mb-3" action="/auth" method="POST">
             <div class="mb-3">
               <label for="username" class="form-label">Username</label>
-              <input type="text" class="form-control" placeholder="Enter your username" autofocus />
+              <input name="username" type="text" class="form-control" placeholder="Enter your username" autofocus />
             </div>
             <div class="mb-3 form-password-toggle">
               <div class="d-flex justify-content-between">
@@ -44,3 +44,5 @@
     </div>
   </div>
 </div>
+
+<%- include('./toast'); %>

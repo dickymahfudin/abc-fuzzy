@@ -1,0 +1,402 @@
+[
+  {
+    "sku": "7916248830",
+    "name": "MINYAK TAWON EE",
+    "buyPrice": 32750,
+    "currentPrice": 38500,
+    "soldAmount": 180,
+    "stock": 60
+  },
+  {
+    "sku": "7916248823",
+    "name": "MINYAK TAWON FF",
+    "buyPrice": 46250,
+    "currentPrice": 54200,
+    "soldAmount": 120,
+    "stock": 40
+  },
+  {
+    "sku": "4102519",
+    "name": "CSAR COKLAT BTL 275",
+    "buyPrice": 21600,
+    "currentPrice": 24600,
+    "soldAmount": 250,
+    "stock": 50
+  },
+  {
+    "sku": "4102511",
+    "name": "CSAR NANAS BTL 275",
+    "buyPrice": 16000,
+    "currentPrice": 18200,
+    "soldAmount": 310,
+    "stock": 60
+  },
+  {
+    "sku": "4102503",
+    "name": "CSAR STRAWBERY BTL 275",
+    "buyPrice": 16000,
+    "currentPrice": 18200,
+    "soldAmount": 300,
+    "stock": 70
+  },
+  {
+    "sku": "11747233057",
+    "name": "DUA KELINCI KC KULIT 1000",
+    "buyPrice": 44000,
+    "currentPrice": 48500,
+    "soldAmount": 100,
+    "stock": 30
+  },
+  {
+    "sku": "23111999995",
+    "name": "NY MENEER TELON 100",
+    "buyPrice": 19250,
+    "currentPrice": 22300,
+    "soldAmount": 200,
+    "stock": 50
+  },
+  {
+    "sku": "89686596885",
+    "name": "LAYS AYAM PAPRIKA 65",
+    "buyPrice": 7588,
+    "currentPrice": 8500,
+    "soldAmount": 512,
+    "stock": 92
+  },
+  {
+    "sku": "11747233040",
+    "name": "DUA KELINCI KC KULIT 450",
+    "buyPrice": 24779,
+    "currentPrice": 27800,
+    "soldAmount": 150,
+    "stock": 50
+  },
+  {
+    "sku": "89686598476",
+    "name": "CHITATO AYAM BUMBU 75",
+    "buyPrice": 7588,
+    "currentPrice": 8500,
+    "soldAmount": 429,
+    "stock": 78
+  },
+  {
+    "sku": "89686598186",
+    "name": "CHITATO AYAM BBQ 75",
+    "buyPrice": 7588,
+    "currentPrice": 8500,
+    "soldAmount": 422,
+    "stock": 85
+  },
+  {
+    "sku": "7916248847",
+    "name": "MINYAK TAWON DD",
+    "buyPrice": 20250,
+    "currentPrice": 23800,
+    "soldAmount": 150,
+    "stock": 50
+  },
+  {
+    "sku": "89686598353",
+    "name": "CHITATO ASLI 75",
+    "buyPrice": 7588,
+    "currentPrice": 8500,
+    "soldAmount": 367,
+    "stock": 69
+  },
+  {
+    "sku": "4102504",
+    "name": "CSAR STRAWBERY 200",
+    "buyPrice": 6800,
+    "currentPrice": 7700,
+    "soldAmount": 400,
+    "stock": 90
+  },
+  {
+    "sku": "4102509",
+    "name": "CSAR NANAS 200",
+    "buyPrice": 6800,
+    "currentPrice": 7700,
+    "soldAmount": 390,
+    "stock": 85
+  },
+  {
+    "sku": "89686598766",
+    "name": "CHITATO SAPI PANGGANG 168",
+    "buyPrice": 14325,
+    "currentPrice": 16000,
+    "soldAmount": 183,
+    "stock": 34
+  },
+  {
+    "sku": "89686598957",
+    "name": "CHITATO KEJU SUPREME 75",
+    "buyPrice": 7588,
+    "currentPrice": 8500,
+    "soldAmount": 342,
+    "stock": 64
+  },
+  {
+    "sku": "89686598056",
+    "name": "CHITATO SAPI PG 75",
+    "buyPrice": 7588,
+    "currentPrice": 8500,
+    "soldAmount": 321,
+    "stock": 61
+  },
+  {
+    "sku": "89686598650",
+    "name": "CHITATO OKONOMIYAKI 85",
+    "buyPrice": 7588,
+    "currentPrice": 8500,
+    "soldAmount": 314,
+    "stock": 59
+  },
+  {
+    "sku": "4102505",
+    "name": "CSAR STRAWBERY CUP 150",
+    "buyPrice": 6200,
+    "currentPrice": 7000,
+    "soldAmount": 380,
+    "stock": 80
+  },
+  {
+    "sku": "4102510",
+    "name": "CSAR NANAS CUP 150",
+    "buyPrice": 6200,
+    "currentPrice": 7000,
+    "soldAmount": 370,
+    "stock": 75
+  },
+  {
+    "sku": "11747233033",
+    "name": "DUA KELINCI KACANG KULIT 225",
+    "buyPrice": 11825,
+    "currentPrice": 13000,
+    "soldAmount": 170,
+    "stock": 60
+  },
+  {
+    "sku": "89686598025",
+    "name": "CHITATO SAPI PG 40",
+    "buyPrice": 4189,
+    "currentPrice": 4800,
+    "soldAmount": 408,
+    "stock": 74
+  },
+  {
+    "sku": "89686598599",
+    "name": "CHITATO SAPI BUMBU B 75",
+    "buyPrice": 7588,
+    "currentPrice": 8500,
+    "soldAmount": 197,
+    "stock": 41
+  },
+  {
+    "sku": "11747237642",
+    "name": "MR FOOD PUDDING MELON 137",
+    "buyPrice": 8788,
+    "currentPrice": 9800,
+    "soldAmount": 160,
+    "stock": 50
+  },
+  {
+    "sku": "89686599046",
+    "name": "CHITATO FOODIE SEAWEED 55",
+    "buyPrice": 6324,
+    "currentPrice": 7000,
+    "soldAmount": 215,
+    "stock": 42
+  },
+  {
+    "sku": "11747237628",
+    "name": "MR FOOD PUDDING CHOCOLATE 137",
+    "buyPrice": 10175,
+    "currentPrice": 11400,
+    "soldAmount": 130,
+    "stock": 40
+  },
+  {
+    "sku": "11747237659",
+    "name": "MR FOOD PUDDING STRAW 137",
+    "buyPrice": 8788,
+    "currentPrice": 9800,
+    "soldAmount": 140,
+    "stock": 45
+  },
+  {
+    "sku": "89686598582",
+    "name": "CHITATO SAPI BUMBU B 40",
+    "buyPrice": 4189,
+    "currentPrice": 4800,
+    "soldAmount": 244,
+    "stock": 43
+  },
+  {
+    "sku": "11747233026",
+    "name": "DUA KELINCI KACANG KULIT 90",
+    "buyPrice": 5060,
+    "currentPrice": 5700,
+    "soldAmount": 200,
+    "stock": 70
+  },
+  {
+    "sku": "2217206",
+    "name": "DOUBLEMINT 5",
+    "buyPrice": 2050,
+    "currentPrice": 2400,
+    "soldAmount": 450,
+    "stock": 90
+  },
+  {
+    "sku": "89686600247",
+    "name": "CHEETOS JAGUNG BAKAR 40",
+    "buyPrice": 2764,
+    "currentPrice": 3000,
+    "soldAmount": 357,
+    "stock": 68
+  },
+  {
+    "sku": "89686596878",
+    "name": "LAYS AYAM PG PAPRIKA 40",
+    "buyPrice": 4189,
+    "currentPrice": 4800,
+    "soldAmount": 213,
+    "stock": 56
+  },
+  {
+    "sku": "2217109",
+    "name": "SPEARMINT 5",
+    "buyPrice": 1500,
+    "currentPrice": 1900,
+    "soldAmount": 500,
+    "stock": 100
+  },
+  {
+    "sku": "89686598926",
+    "name": "CHITATO KEJU SUPREME 15",
+    "buyPrice": 1586,
+    "currentPrice": 1900,
+    "soldAmount": 497,
+    "stock": 88
+  },
+  {
+    "sku": "89686598179",
+    "name": "CHITATO AYAM BBQ 40",
+    "buyPrice": 4189,
+    "currentPrice": 4800,
+    "soldAmount": 189,
+    "stock": 38
+  },
+  {
+    "sku": "89686598421",
+    "name": "CHITATO AYAM BUMBU 40",
+    "buyPrice": 4189,
+    "currentPrice": 4800,
+    "soldAmount": 178,
+    "stock": 36
+  },
+  {
+    "sku": "89686600346",
+    "name": "CHEETOS KEJU AMERIKA 40",
+    "buyPrice": 2687,
+    "currentPrice": 3000,
+    "soldAmount": 261,
+    "stock": 53
+  },
+  {
+    "sku": "89686598575",
+    "name": "CHITATO SAPI BAKAR 19",
+    "buyPrice": 1586,
+    "currentPrice": 1900,
+    "soldAmount": 382,
+    "stock": 72
+  },
+  {
+    "sku": "89686598322",
+    "name": "CHITATO ORIGINAL FLAVOUR 35 GR",
+    "buyPrice": 4189,
+    "currentPrice": 4800,
+    "soldAmount": 136,
+    "stock": 26
+  },
+  {
+    "sku": "89686600544",
+    "name": "CHEETOS NET BBQ 40",
+    "buyPrice": 3161,
+    "currentPrice": 3500,
+    "soldAmount": 172,
+    "stock": 35
+  },
+  {
+    "sku": "89686598414",
+    "name": "CHITATO AYAM BUMBU 19",
+    "buyPrice": 1586,
+    "currentPrice": 1900,
+    "soldAmount": 293,
+    "stock": 52
+  },
+  {
+    "sku": "89686598162",
+    "name": "CHITATO AYAM BBQ 19",
+    "buyPrice": 1698,
+    "currentPrice": 1900,
+    "soldAmount": 275,
+    "stock": 47
+  },
+  {
+    "sku": "89686598728",
+    "name": "CHITATO SAPI PANGGANG 15",
+    "buyPrice": 1700,
+    "currentPrice": 1900,
+    "soldAmount": 248,
+    "stock": 49
+  },
+  {
+    "sku": "89686600025",
+    "name": "CHEETOS AYAM BAKAR 15",
+    "buyPrice": 850,
+    "currentPrice": 1000,
+    "soldAmount": 431,
+    "stock": 75
+  },
+  {
+    "sku": "89686600810",
+    "name": "CHEETOS NET SEAWEED 12",
+    "buyPrice": 790,
+    "currentPrice": 1000,
+    "soldAmount": 408,
+    "stock": 73
+  },
+  {
+    "sku": "89686598018",
+    "name": "CHITATO SAPI PG 19",
+    "buyPrice": 1586,
+    "currentPrice": 1900,
+    "soldAmount": 167,
+    "stock": 33
+  },
+  {
+    "sku": "89686600513",
+    "name": "CHEETOS NET BBQ 12",
+    "buyPrice": 762,
+    "currentPrice": 1000,
+    "soldAmount": 303,
+    "stock": 57
+  },
+  {
+    "sku": "89686600223",
+    "name": "CHEETOS JAGUNG BAKAR 18",
+    "buyPrice": 850,
+    "currentPrice": 1000,
+    "soldAmount": 289,
+    "stock": 55
+  },
+  {
+    "sku": "89686600001",
+    "name": "CHHETOS SHOTS JAGUNG BAKAR 15",
+    "buyPrice": 800,
+    "currentPrice": 1000,
+    "soldAmount": 165,
+    "stock": 31
+  }
+]

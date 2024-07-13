@@ -7,11 +7,14 @@ const flash = require('express-flash');
 const expressLayouts = require('express-ejs-layouts');
 const session = require('express-session');
 
-// const middleware = require('./src/helpers/middleware');
+const middleware = require('./src/helpers/middleware');
 const authRouter = require('./src/routes/auth');
 const productRouter = require('./src/routes/product');
 const inboundRouter = require('./src/routes/inbound');
 const outboundRouter = require('./src/routes/outbound');
+const calculationRouter = require('./src/routes/calculation');
+const dashboardRouter = require('./src/routes/dashboard');
+const settingRouter = require('./src/routes/setting');
 
 const PORT = process.env.PORT || 5000;
 const app = express();
@@ -19,7 +22,7 @@ const app = express();
 app.use(cookieParser('secret'));
 app.use(
   session({
-    cookie: { maxAge: 9000000 },
+    cookie: { maxAge: 90000000 },
     store: new session.MemoryStore(),
     saveUninitialized: true,
     resave: 'true',
@@ -35,15 +38,14 @@ app.set('views', path.join(__dirname, './src/views'));
 app.set('view engine', 'ejs');
 app.set('layout', './layouts/index');
 
-app.get('/', (req, res) => res.render('dashboard', { title: 'sd' }));
-
 app.use('/auth', authRouter);
+app.use(middleware);
+app.use('/', dashboardRouter);
 app.use('/product', productRouter);
 app.use('/inbound', inboundRouter);
 app.use('/outbound', outboundRouter);
-// app.use('/setting', settingRouter);
-// app.use('/customer', customerRouter);
-// app.use('/', dashboardRouter);
+app.use('/calculation', calculationRouter);
+app.use('/setting', settingRouter);
 
 app.use('*', (req, res) => res.render('error', { title: '404', layout: 'layouts/blank' }));
 

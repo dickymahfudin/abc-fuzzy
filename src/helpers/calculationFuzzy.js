@@ -108,7 +108,17 @@ const fuzzyInference = (persentaseABC, persediaan) => {
       aggregated.Banyak * titikTengah.Banyak) /
     (aggregated.Sedikit + aggregated.Cukup + aggregated.Banyak);
 
-  return Math.round(z);
+  return {
+    z: Math.round(z),
+    aggregated,
+    fuzzyABC,
+    fuzzyPersediaan,
+    ruleResults: ruleResults.map((r, i) => ({
+      ...r,
+      ...rules[i],
+    })),
+    titikTengah,
+  };
 };
 
 module.exports = { fuzzyInference };
