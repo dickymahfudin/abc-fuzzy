@@ -7,7 +7,7 @@
 
   <div class="row justify-content-center">
     <% cardInfo.forEach(card => { %>
-      <div class="col-4">
+      <div class="col-md-4 col-sm-6 mb-4">
         <div class="card shadow-lg">
           <div class="card-header">
             <h4 class="card-title mb-0"><%= card.title %></h4>
@@ -22,14 +22,14 @@
   
   <h3 class="my-5">Grafik Penjualan Produk</h3>
   <div>
-    <canvas id="myChart"></canvas>
+    <canvas id="myChart" style="min-width: 1000px;"></canvas>
   </div>
 </div>
 
 <script>
-  let data = '<%- JSON.stringify(productSales) %>'
-  data = JSON.parse(data)
-  console.log(data)
+  let data = '<%- JSON.stringify(productSales) %>';
+  data = JSON.parse(data);
+
   const ctx = document.getElementById('myChart').getContext('2d');
   const myChart = new Chart(ctx, {
     type: 'bar',
@@ -38,15 +38,22 @@
       datasets: [{
         label: 'Total Terjual',
         data: data.map(item => item.totalSold),
-        backgroundColor: 'rgba(54, 162, 235, 0.2)',
-        borderColor: 'rgba(54, 162, 235, 1)',
+        backgroundColor: data.map(item => `rgba(${Math.floor(Math.random()*255)}, ${Math.floor(Math.random()*255)}, ${Math.floor(Math.random()*255)}, 0.2)`),
+        borderColor: data.map(item => `rgba(${Math.floor(Math.random()*255)}, ${Math.floor(Math.random()*255)}, ${Math.floor(Math.random()*255)}, 1)`),
         borderWidth: 1
       }]
     },
     options: {
+      // responsive: true,
+      // maintainAspectRatio: false,
       scales: {
         y: {
           beginAtZero: true
+        },
+        x: {
+          ticks: {
+            autoSkip: false
+          }
         }
       }
     }

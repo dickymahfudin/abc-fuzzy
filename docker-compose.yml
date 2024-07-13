@@ -19,7 +19,7 @@ services:
       - ./.env # Tambahkan ini untuk memastikan variabel lingkungan tersedia di container
 
   db:
-    image: mysql:8
+    image: mysql:5.7
     restart: unless-stopped
     volumes:
       - app_data:/var/lib/mysql
