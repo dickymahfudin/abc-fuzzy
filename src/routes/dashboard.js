@@ -70,14 +70,14 @@ router.get('/', async (req, res) => {
         title: 'Total Pengeluaran',
         value: totalInbound.toLocaleString('id-ID', { style: 'currency', currency: 'IDR', minimumFractionDigits: 0 }),
       },
-      {
-        title: 'Laba',
-        value: parseInt(totalSales?.laba ?? 0, 10).toLocaleString('id-ID', {
-          style: 'currency',
-          currency: 'IDR',
-          minimumFractionDigits: 0,
-        }),
-      },
+      // {
+      //   title: 'Laba',
+      //   value: parseInt(totalSales?.laba ?? 0, 10).toLocaleString('id-ID', {
+      //     style: 'currency',
+      //     currency: 'IDR',
+      //     minimumFractionDigits: 0,
+      //   }),
+      // },
     ],
     productSales: productSales.map(sale => ({
       name: sale.product.name,
