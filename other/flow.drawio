@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="hGFKUB59HfrcAPfqR9E9" name="Page-1">
-        <mxGraphModel dx="1527" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1710" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -30,10 +30,10 @@
                 <mxCell id="4" value="Mulai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="260" y="130" width="100" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="31" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="5" target="12">
+                <mxCell id="31" value="" style="edgeStyle=none;html=1;" parent="1" source="5" target="12" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="&lt;div style=&quot;&quot;&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Dashboard&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Produk&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Penjualan&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Pembelian&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=left;" parent="1" vertex="1">
+                <mxCell id="5" value="&lt;div style=&quot;&quot;&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Dashboard&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Produk&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Penjualan&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Pembelian&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Rumus&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=left;" parent="1" vertex="1">
                     <mxGeometry x="250" y="500" width="130" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="14" value="Tidak" style="edgeStyle=none;html=1;" parent="1" source="10" target="11" edge="1">
@@ -63,10 +63,13 @@
                 <mxCell id="12" value="3&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%221%22%20style%3D%22strokeWidth%3D2%3Bhtml%3D1%3Bshape%3Dmxgraph.flowchart.decision%3BwhiteSpace%3Dwrap%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2290%22%20y%3D%22640%22%20width%3D%22100%22%20height%3D%22100%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="265" y="650" width="100" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" value="Tidak" style="edgeStyle=none;html=1;" parent="1" source="13" target="17" edge="1">
+                <mxCell id="18" value="Tidak" style="edgeStyle=none;html=1;startArrow=none;" parent="1" source="32" target="17" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="30" value="Ya" style="edgeStyle=none;html=1;" parent="1" source="13" target="23" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="Tidakt" style="edgeStyle=none;html=1;" edge="1" parent="1" source="13" target="32">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="13" value="4" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
@@ -75,15 +78,15 @@
                 <mxCell id="21" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="17" target="20" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="650" y="950"/>
+                            <mxPoint x="800" y="1150"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="17" value="Masuk" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" parent="1" vertex="1">
-                    <mxGeometry x="600" y="670" width="100" height="60" as="geometry"/>
+                    <mxGeometry x="750" y="670" width="100" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="20" value="Selesai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
-                    <mxGeometry x="260" y="920" width="100" height="60" as="geometry"/>
+                    <mxGeometry x="260" y="1120" width="100" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="23" value="Pembelian" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="430" y="810" width="100" height="60" as="geometry"/>
@@ -96,6 +99,42 @@
                 </mxCell>
                 <mxCell id="26" value="Dashboard" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="-72" y="810" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="Ya" style="edgeStyle=none;html=1;" edge="1" parent="1" source="32" target="35">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="5" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="650" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="35" target="38">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="640" y="890"/>
+                            <mxPoint x="570" y="890"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" value="Rumus" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="810" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="" style="edgeStyle=none;rounded=0;html=1;" edge="1" parent="1" source="38" target="39">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="Perhitungan&amp;nbsp;&lt;br&gt;metode ABC" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="910" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" style="edgeStyle=none;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="39" target="43">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="710" y="1080"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="39" value="Perhitungan&amp;nbsp;&lt;br&gt;metode ABC" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="660" y="910" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="Hasil Perediksi" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="1030" width="100" height="100" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
